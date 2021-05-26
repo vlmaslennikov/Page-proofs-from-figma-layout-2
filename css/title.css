@@ -1,0 +1,166 @@
+.titleBackground .title .title-header {
+  display: flex;
+  flex-direction: row; }
+  .titleBackground .title .title-header img {
+    display: block;
+    height: 48px;
+    width: 135px; }
+
+.titleBackground .title .main-title {
+  color: white;
+  font-style: normal;
+  font-weight: 300; }
+  .titleBackground .title .main-title span {
+    font-weight: 700; }
+
+.titleBackground .title .buttons {
+  display: flex; }
+  .titleBackground .title .buttons .btn-learn-more {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    background-color: #5cc78d;
+    color: white;
+    border-radius: 32px;
+    border-color: transparent; }
+  .titleBackground .title .buttons .btn-learn-more:hover {
+    opacity: 0.7; }
+  .titleBackground .title .buttons .btn-get-in-touch {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    border-radius: 32px; }
+  .titleBackground .title .buttons .btn-get-in-touch:hover {
+    opacity: 0.7; }
+
+@media (min-width: 992px) {
+  .titleBackground {
+    background-image: url("../assets/images/bg-title-large.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%; }
+    .titleBackground .title {
+      margin: 0 auto;
+      width: 1440px;
+      height: 800px;
+      position: relative; }
+      .titleBackground .title .title-header {
+        margin: 0 160px;
+        padding-top: 32px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; }
+        .titleBackground .title .title-header img {
+          display: block;
+          height: 48px;
+          width: 135px; }
+        .titleBackground .title .title-header .phone {
+          height: 24px;
+          color: white; }
+      .titleBackground .title .main-title {
+        margin: 250px calc(50% - 928px/2) 0 calc(50% - 928px/2);
+        min-width: 992px;
+        max-width: 100%;
+        height: 168px;
+        font-size: 48px;
+        line-height: 56px; }
+      .titleBackground .title .buttons {
+        margin: 32px calc(50% - 928px/2) 87px calc(50% - 928px/2);
+        display: flex;
+        flex-direction: row; }
+        .titleBackground .title .buttons .btn-learn-more {
+          width: 256px;
+          height: 48px; }
+        .titleBackground .title .buttons .btn-get-in-touch {
+          width: 160px;
+          height: 48px;
+          margin: 0 32px; } }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .titleBackground {
+    background-image: url("../assets/images/bg-title-medium.svg");
+    background-size: 100%;
+    background-repeat: no-repeat; }
+    .titleBackground .title {
+      width: 768px;
+      height: 1024px;
+      position: relative; }
+      .titleBackground .title .title-header {
+        margin: 0 160px;
+        padding-top: 32px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center; }
+        .titleBackground .title .title-header img {
+          display: block;
+          height: 48px;
+          width: 135px; }
+        .titleBackground .title .title-header .phone {
+          display: none; }
+      .titleBackground .title .decoration-text {
+        display: none; }
+      .titleBackground .title .main-title {
+        margin: 584px 32px 0 32px;
+        height: 168px;
+        font-size: 48px;
+        line-height: 56px; }
+        .titleBackground .title .main-title br {
+          display: none; }
+      .titleBackground .title .buttons {
+        margin: 16px 32px 16px 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; }
+        .titleBackground .title .buttons .btn-learn-more, .titleBackground .title .buttons .btn-get-in-touch {
+          width: 50%;
+          height: 48px;
+          margin-top: 16px;
+          font-size: 16px;
+          line-height: 16px; } }
+
+@media (min-width: 320px) and (max-width: 767.98px) {
+  .titleBackground {
+    background-image: url("../assets/images/bg-title-small.svg");
+    background-size: 100%;
+    background-repeat: no-repeat; }
+    .titleBackground .title {
+      width: 360px;
+      height: 640px;
+      position: relative; }
+      .titleBackground .title .title-header {
+        margin: 0 160px;
+        padding-top: 32px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center; }
+        .titleBackground .title .title-header img {
+          display: block;
+          height: 48px;
+          width: 135px; }
+        .titleBackground .title .title-header .phone {
+          display: none; }
+      .titleBackground .title .decoration-text {
+        display: none; }
+      .titleBackground .title .main-title {
+        margin: 193px 32px 0 32px;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 36px; }
+        .titleBackground .title .main-title br {
+          display: none; }
+      .titleBackground .title .buttons {
+        margin: 16px 32px 16px 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; }
+        .titleBackground .title .buttons .btn-learn-more, .titleBackground .title .buttons .btn-get-in-touch {
+          width: 100%;
+          height: 48px;
+          margin-top: 16px;
+          font-size: 16px;
+          line-height: 16px; } }

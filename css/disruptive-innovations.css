@@ -1,0 +1,98 @@
+.disruptive-innovations {
+  background-color: #f7f8fa;
+  font-size: 24px;
+  line-height: 32px; }
+  .disruptive-innovations div .di-title {
+    border-left: 8px solid #5cc78d;
+    color: #0c242c; }
+    .disruptive-innovations div .di-title p {
+      margin-left: 24px;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 56px; }
+  .disruptive-innovations ul li {
+    padding: 16px 0 8px 14px;
+    margin-left: 20px;
+    list-style-image: url("../assets/images/li-marker.svg"); }
+
+@media (min-width: 992px) and (max-width: 1920px) {
+  .disruptive-innovations {
+    min-width: 992px;
+    max-width: 100%;
+    height: 520px;
+    padding: 0 224px 130px 224px;
+    display: inline-flex; }
+    .disruptive-innovations div {
+      width: 470px; }
+      .disruptive-innovations div .di-title {
+        padding-top: 148px;
+        border-left: 8px solid #5cc78d;
+        color: #0c242c; }
+        .disruptive-innovations div .di-title p {
+          margin-left: 24px; }
+      .disruptive-innovations div .di-text {
+        margin-left: 32px;
+        padding-top: 32px; }
+    .disruptive-innovations ul {
+      padding-top: 156px;
+      margin-left: 126px; } }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .disruptive-innovations {
+    width: 768px;
+    height: 520px;
+    padding-bottom: 80px; }
+    .disruptive-innovations div {
+      width: 100%; }
+      .disruptive-innovations div .di-title {
+        padding-top: 48px;
+        border-left: 8px solid #5cc78d;
+        color: #0c242c; }
+        .disruptive-innovations div .di-title p {
+          margin-left: 24px;
+          font-size: 48px;
+          line-height: 56px; }
+        .disruptive-innovations div .di-title br {
+          display: none; }
+      .disruptive-innovations div .di-text {
+        width: 650px;
+        margin-left: 32px;
+        padding-top: 32px; }
+    .disruptive-innovations ul {
+      width: 650px;
+      padding-top: 72px;
+      margin-left: 32px; }
+      .disruptive-innovations ul li {
+        padding-top: 24px; } }
+
+@media (min-width: 320px) and (max-width: 767.98px) {
+  .disruptive-innovations {
+    width: 360px;
+    height: 640px;
+    padding-bottom: 80px; }
+    .disruptive-innovations div {
+      width: 100%; }
+      .disruptive-innovations div .di-title {
+        padding-top: 96px;
+        border-left: 8px solid #5cc78d;
+        color: #0c242c;
+        font-size: 32px;
+        line-height: 36px; }
+        .disruptive-innovations div .di-title p {
+          margin-left: 24px; }
+        .disruptive-innovations div .di-title br {
+          display: none; }
+      .disruptive-innovations div .di-text {
+        width: 296px;
+        margin-left: 32px;
+        padding-top: 32px;
+        font-size: 16px;
+        line-height: 24px; }
+    .disruptive-innovations ul {
+      width: 296px;
+      padding-top: 64px;
+      margin-left: 32px;
+      font-size: 16px;
+      line-height: 24px; }
+      .disruptive-innovations ul li {
+        padding-top: 24px; } }

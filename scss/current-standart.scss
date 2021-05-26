@@ -1,0 +1,218 @@
+$phoneMin:320px;
+$phoneMax:767.98px;
+$tabletMin:768px;
+$tabletMax:991.98px;
+$desktopMin:992px;
+$desktopMax:1920px;
+
+.current-standart-background{
+  .current-standart{
+    .big-container{
+      .titles{
+        .small-title{
+          font-weight:700;
+        }
+        div{
+          border-left: 8px solid rgba(206, 211, 218, 1);
+          .big-title{
+            font-style: normal;
+            font-weight: bold;
+            color: rgba(12, 36, 44, 1);
+            span{
+              color: rgba(248, 99, 78, 1);
+            }
+          }
+        }
+      }
+      .main-content{
+          .card{
+              :first-child{
+                font-weight:700;
+                color: rgba(12, 36, 44, 1);
+              }
+              :last-child{
+                font-weight:400;
+                color: rgba(12, 36, 44, 1);
+              }
+          }
+      }
+    }
+  }
+
+}
+
+
+@media (min-width: $desktopMin) {
+  .current-standart-background{
+    background-image: url('../assets/images/bg-current-standart-large.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+    .current-standart{
+      width: 1440px;
+      height: 1942px;
+      margin: 0 auto;
+      .big-container{
+        padding: 96px 224px 0 224px;
+        .titles{
+           width: 100%;
+           padding-bottom: 158px;
+          .small-title{
+            padding: 0 0 8px 32px;
+            font-size: 32px;
+            line-height: 36px;
+          }
+          div{
+            padding-top: 8px;
+            border-left: 8px solid rgba(206, 211, 218, 1);
+            .big-title{
+              padding-left: 24px;
+              font-size: 48px;
+              line-height: 56px;
+            }
+          }
+        }
+        .main-content{
+          width: 100%;
+          display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            .card{
+              padding-top: 114px;
+              padding-right: 25px;
+              width: 352px;
+              height: 270px;
+              :first-child{
+                font-size: 32px;
+                line-height: 36px;
+              }
+              :last-child{
+                font-size:24px ;
+                line-height: 32px;
+              }
+              &:nth-child(odd){
+                align-self: flex-end;
+
+             }
+            }
+        }
+      }
+    }
+  }
+  
+  }
+  
+
+@media  (min-width: $tabletMin) and (max-width: $tabletMax) {
+  .current-standart-background{
+    background-image: url('../assets/images/bg-current-standart-medium.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    .current-standart{
+      width: 768px;
+      height: 2000px;
+      div{
+        .titles{
+          padding-top: 96px ;
+          padding-right: 16px;
+          .small-title{
+            padding: 0 0 8px 32px;
+            font-size: 32px;
+            line-height: 36px;
+          }
+          div{
+            padding-top: 8px;
+            border-left: 8px solid rgba(206, 211, 218, 1);
+            .big-title{
+              padding-left: 24px;
+              font-size: 48px;
+              line-height: 56px;
+            }
+          }
+        }
+        .main-content{
+          padding-right: 16px;
+          margin-top:120px;
+          .cards{
+            padding-left: 400px;
+            .card{
+              width: 336px;
+              height: 384px;
+              :first-child{
+                font-size: 32px;
+                line-height: 36px;
+              }
+              :last-child{
+                font-size:24px ;
+                line-height: 32px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }  
+  }
+  
+
+@media (min-width: $phoneMin) and (max-width: $phoneMax){
+  .current-standart-background{
+    background-image: url('../assets/images/bg-current-standart-small.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    .current-standart{
+      width: 360px;
+      height: 1440px;
+      div{
+        .titles{
+          padding-top: 96px ;
+          padding-right: 16px;
+          .small-title{
+            padding: 0 0 8px 32px;
+            font-size: 24px;
+            line-height: 28px;
+          }
+          div{
+            padding-top: 8px;
+            border-left: 8px solid rgba(206, 211, 218, 1);
+            .big-title{
+              width: 300px;
+              padding-left: 24px;
+              font-size: 32px;
+              line-height: 36px;
+            }
+          }
+        }
+        .main-content{
+          padding-right: 16px;
+          margin-top:124px;
+          .cards{
+            padding-left: 87px;
+            .card{
+              width: 248px;
+              height: 264px;
+              :first-child{
+                font-size: 24px;
+                font-weight:700;
+                line-height: 28px;
+                color: rgba(12, 36, 44, 1);
+              }
+              :last-child{
+                padding-top: 16px;
+                font-size:16px ;
+                font-weight:400;
+                line-height: 24px;
+                color: rgba(12, 36, 44, 1);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+    
+  }
+  

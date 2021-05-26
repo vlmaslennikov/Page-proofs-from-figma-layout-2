@@ -1,0 +1,146 @@
+.current-standart-background .current-standart .big-container .titles .small-title {
+  font-weight: 700; }
+
+.current-standart-background .current-standart .big-container .titles div {
+  border-left: 8px solid #ced3da; }
+  .current-standart-background .current-standart .big-container .titles div .big-title {
+    font-style: normal;
+    font-weight: bold;
+    color: #0c242c; }
+    .current-standart-background .current-standart .big-container .titles div .big-title span {
+      color: #f8634e; }
+
+.current-standart-background .current-standart .big-container .main-content .card :first-child {
+  font-weight: 700;
+  color: #0c242c; }
+
+.current-standart-background .current-standart .big-container .main-content .card :last-child {
+  font-weight: 400;
+  color: #0c242c; }
+
+@media (min-width: 992px) {
+  .current-standart-background {
+    background-image: url("../assets/images/bg-current-standart-large.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%; }
+    .current-standart-background .current-standart {
+      width: 1440px;
+      height: 1942px;
+      margin: 0 auto; }
+      .current-standart-background .current-standart .big-container {
+        padding: 96px 224px 0 224px; }
+        .current-standart-background .current-standart .big-container .titles {
+          width: 100%;
+          padding-bottom: 158px; }
+          .current-standart-background .current-standart .big-container .titles .small-title {
+            padding: 0 0 8px 32px;
+            font-size: 32px;
+            line-height: 36px; }
+          .current-standart-background .current-standart .big-container .titles div {
+            padding-top: 8px;
+            border-left: 8px solid #ced3da; }
+            .current-standart-background .current-standart .big-container .titles div .big-title {
+              padding-left: 24px;
+              font-size: 48px;
+              line-height: 56px; }
+        .current-standart-background .current-standart .big-container .main-content {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start; }
+          .current-standart-background .current-standart .big-container .main-content .card {
+            padding-top: 114px;
+            padding-right: 25px;
+            width: 352px;
+            height: 270px; }
+            .current-standart-background .current-standart .big-container .main-content .card :first-child {
+              font-size: 32px;
+              line-height: 36px; }
+            .current-standart-background .current-standart .big-container .main-content .card :last-child {
+              font-size: 24px;
+              line-height: 32px; }
+            .current-standart-background .current-standart .big-container .main-content .card:nth-child(odd) {
+              align-self: flex-end; } }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .current-standart-background {
+    background-image: url("../assets/images/bg-current-standart-medium.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%; }
+    .current-standart-background .current-standart {
+      width: 768px;
+      height: 2000px; }
+      .current-standart-background .current-standart div .titles {
+        padding-top: 96px;
+        padding-right: 16px; }
+        .current-standart-background .current-standart div .titles .small-title {
+          padding: 0 0 8px 32px;
+          font-size: 32px;
+          line-height: 36px; }
+        .current-standart-background .current-standart div .titles div {
+          padding-top: 8px;
+          border-left: 8px solid #ced3da; }
+          .current-standart-background .current-standart div .titles div .big-title {
+            padding-left: 24px;
+            font-size: 48px;
+            line-height: 56px; }
+      .current-standart-background .current-standart div .main-content {
+        padding-right: 16px;
+        margin-top: 120px; }
+        .current-standart-background .current-standart div .main-content .cards {
+          padding-left: 400px; }
+          .current-standart-background .current-standart div .main-content .cards .card {
+            width: 336px;
+            height: 384px; }
+            .current-standart-background .current-standart div .main-content .cards .card :first-child {
+              font-size: 32px;
+              line-height: 36px; }
+            .current-standart-background .current-standart div .main-content .cards .card :last-child {
+              font-size: 24px;
+              line-height: 32px; } }
+
+@media (min-width: 320px) and (max-width: 767.98px) {
+  .current-standart-background {
+    background-image: url("../assets/images/bg-current-standart-small.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%; }
+    .current-standart-background .current-standart {
+      width: 360px;
+      height: 1440px; }
+      .current-standart-background .current-standart div .titles {
+        padding-top: 96px;
+        padding-right: 16px; }
+        .current-standart-background .current-standart div .titles .small-title {
+          padding: 0 0 8px 32px;
+          font-size: 24px;
+          line-height: 28px; }
+        .current-standart-background .current-standart div .titles div {
+          padding-top: 8px;
+          border-left: 8px solid #ced3da; }
+          .current-standart-background .current-standart div .titles div .big-title {
+            width: 300px;
+            padding-left: 24px;
+            font-size: 32px;
+            line-height: 36px; }
+      .current-standart-background .current-standart div .main-content {
+        padding-right: 16px;
+        margin-top: 124px; }
+        .current-standart-background .current-standart div .main-content .cards {
+          padding-left: 87px; }
+          .current-standart-background .current-standart div .main-content .cards .card {
+            width: 248px;
+            height: 264px; }
+            .current-standart-background .current-standart div .main-content .cards .card :first-child {
+              font-size: 24px;
+              font-weight: 700;
+              line-height: 28px;
+              color: #0c242c; }
+            .current-standart-background .current-standart div .main-content .cards .card :last-child {
+              padding-top: 16px;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 24px;
+              color: #0c242c; } }

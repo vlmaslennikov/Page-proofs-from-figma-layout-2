@@ -1,0 +1,160 @@
+$phoneMin:320px;
+$phoneMax:767.98px;
+$tabletMin:768px;
+$tabletMax:991.98px;
+$desktopMin:992px;
+$desktopMax:1920px;
+
+.footer{
+    background-color: rgba(241, 243, 246, 1);
+    .contacts{
+      img{
+        width: 123px;;
+        height: 44px;
+      }
+      div{
+        color: rgba(137, 146, 159, 1);
+        .phone{
+          color: rgba(137, 146, 159, 1);
+        }
+        .email{
+          color: rgba(137, 146, 159, 1);
+        }
+      }
+    }
+    .copyright{
+      font-weight:400;
+      text-align: center;
+      color: rgba(137, 146, 159, 1);
+    }
+  }
+
+@media (min-width: $desktopMin) and (max-width: $desktopMax){
+  .footer{
+      min-width: $desktopMin;
+      max-width: 100%;
+      height: 242px;
+      .contacts{
+        height: 44px;
+        padding: 74px 160px 76px 160px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        div{
+          display: inline-flex;
+          .phone{
+            padding-right: 60px;
+            font-size:32px ;
+            line-height: 32px;
+          }
+          .email{
+            font-size:32px ;
+            line-height: 32px;
+            margin-left: 32px;
+            padding-right: 60px;
+          }
+        }
+      }
+      .copyright{
+        font-size: 12px;
+        font-weight:400;
+        line-height: 16px;
+      }
+    }
+}
+
+@media  (min-width: $tabletMin) and (max-width: $tabletMax){
+    .footer{
+        width: 768px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+          
+        .contacts{
+          padding-top: 64px;
+          height: 44px;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          img{
+            display: block;
+          }
+          
+          div{
+            padding-top: 64px;
+            padding-bottom: 64px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: column;
+            .phone{
+              font-size:32px ;
+              line-height: 32px;
+            }
+            .email{
+              padding-top: 64px;
+              font-size:32px ;
+              line-height: 32px;
+            }
+          }
+        }
+        .copyright{
+          padding-bottom: 20px;
+          font-size: 12px;
+          font-weight:400;
+          line-height: 16px;
+        }
+      }
+}
+
+@media (min-width: $phoneMin) and (max-width: $phoneMax){
+  .footer{
+      width: 360px;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+        
+      .contacts{
+        padding-top: 64px;
+        height: 44px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        img{
+          display: block;
+        }
+        
+        div{
+          padding-top: 64px;
+          padding-bottom: 64px;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          flex-direction: column;
+          .phone{
+            font-size:32px ;
+            line-height: 32px;
+          }
+          .email{
+            padding-top: 64px;
+            font-size:32px ;
+            line-height: 32px;
+          }
+        }
+      }
+      .copyright{
+        padding-bottom: 20px;
+        font-size: 12px;
+        font-weight:400;
+        line-height: 16px;
+      }
+    }
+}
+
+
+  
