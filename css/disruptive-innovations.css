@@ -12,9 +12,17 @@
         font-weight: 700;
         line-height: 56px; }
     .disruptive-innovations-background .disruptive-innovations ul li {
-      padding: 16px 0 8px 14px;
-      margin-left: 20px;
-      list-style-image: url("../assets/images/li-marker.svg"); }
+      padding: 16px 0 8px 0;
+      margin-left: 5px;
+      list-style-type: none; }
+    .disruptive-innovations-background .disruptive-innovations ul li div {
+      display: inline-flex;
+      margin-bottom: 7px;
+      margin-right: 14px;
+      height: 4px;
+      width: 12px;
+      background: #5cc78d;
+      border-radius: 6px; }
 
 @media (min-width: 992px) {
   .disruptive-innovations {
