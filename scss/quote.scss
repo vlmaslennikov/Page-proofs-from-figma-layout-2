@@ -60,12 +60,13 @@ $desktopMax:1920px;
   .quote{
     width: 768px;
     height: 400px;
+    margin: 0 auto;
     background-color: rgba(247, 248, 250, 1);
     .quote-block{
       padding: 87px 32px 86px 32px ;
       .author{
         height: 67px;
-        margin-top: 32px  ;
+        margin-top: 32px;
         margin-left: 50%;
         .name{
           margin-left: 16px;
@@ -82,6 +83,7 @@ $desktopMax:1920px;
   .quote{
     width: 360px;
     height: 640px;
+    margin: 0 auto;
     background-color: rgba(247, 248, 250, 1);
     .quote-block{
       padding: 87px 32px 86px 32px ;

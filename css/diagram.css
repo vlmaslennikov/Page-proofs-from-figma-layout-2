@@ -30,15 +30,6 @@
 .rectangle-low {
   background: linear-gradient(270deg, #89929f 2.74%, #ced3da 100%); }
 
-.width-heigh {
-  width: 5.71%; }
-
-.width-middle {
-  width: 50%; }
-
-.width-low {
-  width: 100%; }
-
 @media (min-width: 992px) {
   .diagram {
     width: 1440px;
@@ -70,12 +61,19 @@
       .diagram .main-diagam :first-child .diagram-block .methodth-name {
         text-align: left; }
       .diagram .main-diagam :first-child .diagram-block .hours {
-        text-align: left; } }
+        text-align: left; }
+  .width-heigh {
+    width: 5.71%; }
+  .width-middle {
+    width: 50%; }
+  .width-low {
+    width: 100%; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   .diagram {
     width: 768px;
-    height: 720px; }
+    height: 720px;
+    margin: 0 auto; }
     .diagram .diagram-titles {
       padding-top: 96px; }
       .diagram .diagram-titles p {
@@ -98,12 +96,19 @@
     background-size: 100%;
     margin: 76px 32px 72px 32px;
     height: 244px;
-    width: 704px; } }
+    width: 704px; }
+  .rectangle-heigh {
+    width: 5.71%; }
+  .rectangle-middle {
+    width: 50%; }
+  .rectangle-low {
+    width: 100%; } }
 
 @media (min-width: 320px) and (max-width: 767.98px) {
   .diagram {
     width: 360px;
-    height: 720px; }
+    height: 720px;
+    margin: 0 auto; }
     .diagram .diagram-titles {
       padding-top: 96px; }
       .diagram .diagram-titles p {
@@ -126,4 +131,10 @@
     background-size: 100%;
     margin: 64px 32px 72px 32px;
     height: 244px;
-    width: 296px; } }
+    width: 296px; }
+  .rectangle-heigh {
+    width: 5.71%; }
+  .rectangle-middle {
+    width: 50%; }
+  .rectangle-low {
+    width: 100%; } }

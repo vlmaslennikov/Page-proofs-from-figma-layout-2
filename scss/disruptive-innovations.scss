@@ -10,7 +10,7 @@ $desktopMax:1920px;
   .disruptive-innovations{
     font-size: 24px;
     line-height: 32px;
-    div{
+    .first-block{
       .di-title{
         border-left: 8px solid rgba(92, 199, 141, 1);
         color: rgba(12, 36, 44, 1);
@@ -22,7 +22,7 @@ $desktopMax:1920px;
         }
       }
     }
-    ul{
+    .second-block{
       li {
         padding: 16px 0 8px 0;
         margin-left: 5px;
@@ -84,6 +84,7 @@ $desktopMax:1920px;
     .disruptive-innovations{
       width: 768px;
       height: 520px;
+      margin: 0 auto;
       padding-bottom: 80px;
     
       div{
@@ -123,6 +124,7 @@ $desktopMax:1920px;
       width: 360px;
       height: 640px;
       padding-bottom: 80px;
+      margin: 0 auto;
     
       div{
         width: 100%;

@@ -3,19 +3,19 @@
   .disruptive-innovations-background .disruptive-innovations {
     font-size: 24px;
     line-height: 32px; }
-    .disruptive-innovations-background .disruptive-innovations div .di-title {
+    .disruptive-innovations-background .disruptive-innovations .first-block .di-title {
       border-left: 8px solid #5cc78d;
       color: #0c242c; }
-      .disruptive-innovations-background .disruptive-innovations div .di-title p {
+      .disruptive-innovations-background .disruptive-innovations .first-block .di-title p {
         margin-left: 24px;
         font-size: 48px;
         font-weight: 700;
         line-height: 56px; }
-    .disruptive-innovations-background .disruptive-innovations ul li {
+    .disruptive-innovations-background .disruptive-innovations .second-block li {
       padding: 16px 0 8px 0;
       margin-left: 5px;
       list-style-type: none; }
-    .disruptive-innovations-background .disruptive-innovations ul li div {
+    .disruptive-innovations-background .disruptive-innovations .second-block li div {
       display: inline-flex;
       margin-bottom: 7px;
       margin-right: 14px;
@@ -53,6 +53,7 @@
   .disruptive-innovations {
     width: 768px;
     height: 520px;
+    margin: 0 auto;
     padding-bottom: 80px; }
     .disruptive-innovations div {
       width: 100%; }
@@ -81,7 +82,8 @@
   .disruptive-innovations {
     width: 360px;
     height: 640px;
-    padding-bottom: 80px; }
+    padding-bottom: 80px;
+    margin: 0 auto; }
     .disruptive-innovations div {
       width: 100%; }
       .disruptive-innovations div .di-title {

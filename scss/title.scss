@@ -68,11 +68,9 @@ $desktopMin:992px;
 
     .title{
       margin: 0 auto;
-      
       width: 1440px;
       height: 800px;
 
-      // position:relative;
       .title-header{
         margin: 0 160px ;
         padding-top: 32px;
@@ -122,11 +120,15 @@ $desktopMin:992px;
     background-image: url('../assets/images/bg-title-medium.svg');
     background-size:100%;
     background-repeat: no-repeat;
+
+    min-width: 768px;
+    max-width: 100%;
+    height: 1024px;
     .title{
       
       width: 768px;
       height: 1024px;
-      position:relative;
+      margin: 0 auto;
       .title-header{
         margin: 0 160px ;
         padding-top: 32px;
@@ -178,9 +180,13 @@ $desktopMin:992px;
     background-image: url('../assets/images/bg-title-small.svg');
     background-size:100%;
     background-repeat: no-repeat;
+    min-width: 360px;
+    max-width: 100%;
+    height: 640px;
     .title{
       width: 360px;
       height: 640px;
+      margin: 0 auto;
       position:relative;
       .title-header{
         margin: 0 160px ;

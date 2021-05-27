@@ -54,15 +54,7 @@ $desktopMax:1920px;
   background:linear-gradient(270deg, rgba(137, 146, 159, 1) 2.74%,rgba(206, 211, 218, 1) 100%);
 }
 
-.width-heigh{
-  width:5.71%
-}
-.width-middle{
-  width: 50%;
-}
-.width-low{
-  width: 100%;
-}
+
 
 
 @media (min-width: $desktopMin){
@@ -119,12 +111,21 @@ $desktopMax:1920px;
     }
   }
   }
+  .width-heigh{
+    width:5.71%
+  }
+  .width-middle{
+    width: 50%;
+  }
+  .width-low{
+    width: 100%;
+  }
 }
 @media (min-width: $tabletMin) and (max-width: $tabletMax) {
   .diagram{
     width: 768px ;
     height:720px ;
-  
+    margin: 0 auto;
     .diagram-titles{
       padding-top: 96px;
       p{
@@ -147,6 +148,7 @@ $desktopMax:1920px;
         }
       }
     }
+   
   }
     .main-diagam{
       background-image: url('../assets/images/diagram-medium.svg');
@@ -155,12 +157,21 @@ $desktopMax:1920px;
       height: 244px;
       width: 704px;
   }
+  .rectangle-heigh{
+    width:5.71%
+  }
+  .rectangle-middle{
+    width: 50%;
+  }
+  .rectangle-low{
+    width: 100%;
+  }
 }
 @media (min-width: $phoneMin) and (max-width: $phoneMax){
   .diagram{
     width: 360px ;
     height:720px ;
-  
+    margin: 0 auto;
     .diagram-titles{
       padding-top: 96px;
       p{
@@ -190,6 +201,15 @@ $desktopMax:1920px;
       margin: 64px 32px 72px 32px;
       height: 244px;
       width: 296px;
+  }
+  .rectangle-heigh{
+    width:5.71%
+  }
+  .rectangle-middle{
+    width: 50%;
+  }
+  .rectangle-low{
+    width: 100%;
   }
 }
 

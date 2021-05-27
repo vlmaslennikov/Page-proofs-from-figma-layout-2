@@ -77,6 +77,7 @@
   .team {
     width: 768px;
     height: 1200px;
+    margin: 0 auto;
     padding-top: 96px; }
     .team .team-cards {
       display: flex;
@@ -118,6 +119,7 @@
   .team {
     width: 360px;
     height: 1680px;
+    margin: 0 auto;
     padding: 96px 0; }
     .team .team-cards {
       display: flex;
