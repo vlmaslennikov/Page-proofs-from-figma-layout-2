@@ -1,51 +1,49 @@
-.team {
+.team-background {
   background-color: white; }
-  .team .team-title {
+  .team-background .team .team-title {
     font-size: 48px;
     font-weight: 700;
     line-height: 56px;
     text-align: center; }
-  .team .team-cards {
-    display: flex; }
-    .team .team-cards .team-card .position {
-      font-weight: 700;
-      color: #5cc78d;
-      background-color: white;
-      max-width: 44px;
-      padding: 8px 8px 36px 0;
-      margin-top: -60px;
-      margin-left: -16px;
-      position: relative;
-      z-index: 1; }
-    .team .team-cards .team-card .author-name {
-      font-weight: 700;
-      margin-top: -30px;
-      position: relative;
-      z-index: 2; }
-    .team .team-cards .team-card .author-location {
-      font-weight: 400; }
-    .team .team-cards .team-card .author-about {
-      font-weight: 400;
-      opacity: 0.6; }
-    .team .team-cards .team-card .author-link {
-      padding-top: 8px; }
-      .team .team-cards .team-card .author-link img {
-        width: 24px;
-        height: 24px; }
-      .team .team-cards .team-card .author-link a {
-        background-image: url("../assets/images/social-ref.svg");
-        background-repeat: no-repeat;
-        background-size: 30%;
-        margin-top: 6px;
-        margin-left: 16px;
-        width: 216px;
-        height: 20px; }
+  .team-background .team .team-cards .team-card .position {
+    font-weight: 700;
+    color: #5cc78d;
+    background-color: white;
+    max-width: 44px;
+    padding: 8px 8px 36px 0;
+    margin-top: -60px;
+    margin-left: -16px;
+    position: relative;
+    z-index: 1; }
+  .team-background .team .team-cards .team-card .author-name {
+    font-weight: 700;
+    margin-top: -30px;
+    position: relative;
+    z-index: 2; }
+  .team-background .team .team-cards .team-card .author-location {
+    font-weight: 400; }
+  .team-background .team .team-cards .team-card .author-about {
+    font-weight: 400;
+    opacity: 0.6; }
+  .team-background .team .team-cards .team-card .author-link {
+    padding-top: 8px; }
+    .team-background .team .team-cards .team-card .author-link img {
+      width: 24px;
+      height: 24px; }
+    .team-background .team .team-cards .team-card .author-link a {
+      background-image: url("../assets/images/social-ref.svg");
+      background-repeat: no-repeat;
+      background-size: 30%;
+      margin-top: 6px;
+      margin-left: 16px;
+      width: 216px;
+      height: 20px; }
 
-@media (min-width: 992px) and (max-width: 1920px) {
+@media (min-width: 992px) {
   .team {
-    min-width: 992px;
-    max-width: 100%;
-    height: 720px; }
+    width: 1440px;
+    height: 720px;
+    margin: 0 auto; }
     .team .team-cards {
       padding: 90px 160px 86.2px 256px;
       display: flex;

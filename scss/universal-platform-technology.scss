@@ -6,23 +6,40 @@ $desktopMin:992px;
 $desktopMax:1920px;
 
 
-.universal-platform-technology{
+.universal-platform-background{
   }
   @media (min-width: $desktopMin)  {
-    .universal-platform-technology{
+    .universal-platform-background{
       background-image: url('../assets/images/bg-universal-platform-large.png');
       background-size: 100%;
       background-repeat: no-repeat;
-      width: 100%;
-      .block-main{
-        background-image: url('../assets/images/round-elem-large.svg');
-        background-size: 100%;
-        background-repeat: no-repeat;
-        width: 1440px;
-        height: 960px;
-        margin: 0 auto;
-        padding: 10px;
-      }
+      min-width: 1440px;
+      max-width: 100%;
+      height: 960px;
+
+    }
+    .universal-platform{
+      width: 1440px;
+      height: 960px;
+      margin: 0 auto;
+      .universal-platform-title{
+        padding-top: 142.25px;
+        margin-bottom: 100.75px;
+          font-size: 32px;
+          font-weight:700;
+          line-height: 36px;
+          color: white;
+          text-align: center;
+
+        }
+      .universal-platform-circle{
+          background-image: url('../assets/images/round-elem-large.svg');
+          background-size: contain;
+          background-repeat: no-repeat;
+          width: 1083px;
+          height: 587px;
+          margin: 0 auto;
+        }
       // #circle-medium{
       //   display: none;
       // }
@@ -32,7 +49,7 @@ $desktopMax:1920px;
     }
   }
   @media (min-width: $tabletMin) and (max-width: $tabletMax) {
-    .universal-platform-technology{
+    .universal-platform{
       background-image: url('../assets/images/bg-universal-platform-medium.png');
       width: 768px;
       height: 1480px;
@@ -45,7 +62,7 @@ $desktopMax:1920px;
     }
   }
   @media (min-width: $phoneMin) and (max-width: $phoneMax){
-    .universal-platform-technology{
+    .universal-platform{
       background-image: url('../assets/images/bg-universal-platform-small.png');
       width: 360px;
       height: 1545px;

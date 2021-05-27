@@ -5,8 +5,9 @@ $tabletMax:991.98px;
 $desktopMin:992px;
 $desktopMax:1920px;
 
-.team{
-    background-color: white;
+.team-background{
+  background-color: white;
+  .team{
     .team-title{
       font-size: 48px;
       font-weight: 700;
@@ -14,7 +15,6 @@ $desktopMax:1920px;
       text-align: center;
     }
     .team-cards{
-      display: flex;
       .team-card{
         .position{
           font-weight: 700;
@@ -60,12 +60,14 @@ $desktopMax:1920px;
       }
     }
   }
+}
 
-  @media (min-width: $desktopMin) and (max-width: $desktopMax){
+
+  @media (min-width: $desktopMin){
     .team{
-      min-width: $desktopMin;
-      max-width: 100%;
+      width: 1440px;
       height: 720px;
+      margin: 0 auto;
       .team-cards{
         padding: 90px 160px 86.2px 256px;
         display: flex;

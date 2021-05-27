@@ -33,21 +33,23 @@
     text-align: center;
     background-color: transparent;
     color: white;
-    border-radius: 32px; }
+    border-radius: 32px;
+    border-color: white; }
   .titleBackground .title .buttons .btn-get-in-touch:hover {
     opacity: 0.7; }
 
 @media (min-width: 992px) {
   .titleBackground {
     background-image: url("../assets/images/bg-title-large.png");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    width: 100%; }
+    min-width: 1440px;
+    max-width: 100%;
+    height: 800px; }
     .titleBackground .title {
       margin: 0 auto;
       width: 1440px;
-      height: 800px;
-      position: relative; }
+      height: 800px; }
       .titleBackground .title .title-header {
         margin: 0 160px;
         padding-top: 32px;
@@ -62,7 +64,7 @@
           height: 24px;
           color: white; }
       .titleBackground .title .main-title {
-        margin: 250px calc(50% - 928px/2) 0 calc(50% - 928px/2);
+        margin: 385px calc(50% - 928px/2) 0 calc(50% - 928px/2);
         min-width: 992px;
         max-width: 100%;
         height: 168px;

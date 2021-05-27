@@ -5,8 +5,9 @@ $tabletMax:991.98px;
 $desktopMin:992px;
 $desktopMax:1920px;
 
-
-.quote{
+.quote-background{
+  background-color: white;
+  .quote{
     .quote-block{
       .text{
         font-size: 24px;
@@ -31,13 +32,14 @@ $desktopMax:1920px;
       }
     }
   }
+}
 
-@media (min-width: $desktopMin) and (max-width: $desktopMax) {
+
+@media (min-width: $desktopMin) {
   .quote{
-    min-width: $desktopMin;
-    max-width: 100%;
+    width: 1440px;
     height: 460px;
-    background-color: rgba(247, 248, 250, 1);
+    margin: 0 auto;
     .quote-block{
       padding: 164px 256px 108px 256px ;
       .author{

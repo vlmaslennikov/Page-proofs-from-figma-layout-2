@@ -5,8 +5,9 @@ $tabletMax:991.98px;
 $desktopMin:992px;
 $desktopMax:1920px;
 
-.disruptive-innovations{
-    background-color: rgba(247, 248, 250, 1);
+.disruptive-innovations-background{
+  background-color: rgba(247, 248, 250, 1);
+  .disruptive-innovations{
     font-size: 24px;
     line-height: 32px;
     div{
@@ -29,34 +30,44 @@ $desktopMax:1920px;
       }
     }
   }
+}
 
-  @media (min-width: $desktopMin) and (max-width: $desktopMax){
+
+  @media (min-width: $desktopMin){
+    
     .disruptive-innovations{
-      min-width: $desktopMin;
-      max-width: 100%;
+      width: 1440px;
       height: 520px;
-      padding: 0 224px 130px 224px;
-      display: inline-flex;
-      div{
-        width: 470px;
-        .di-title{
-          padding-top: 148px;
-          border-left: 8px solid rgba(92, 199, 141, 1);
-          color: rgba(12, 36, 44, 1);
-          p{
-            margin-left: 24px;
+      margin: 0 auto;
+     
+      .disruptive-innovations-main{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 224px 130px 224px;
+        .first-block{
+          width: 470px;
+          .di-title{
+            padding-top: 148px;
+            border-left: 8px solid rgba(92, 199, 141, 1);
+            color: rgba(12, 36, 44, 1);
+            p{
+              margin-left: 24px;
+            }
+          }
+          .di-text{
+            margin-left: 32px;
+            padding-top: 32px;
           }
         }
-        .di-text{
-          margin-left: 32px;
-          padding-top: 32px;
+        .second-block{
+          width: 450px;
+          padding-top: 156px;
+          margin-left:126px ;
         }
       }
-      ul{
-        padding-top: 156px;
-        margin-left:126px ;
+
       }
-    }
+      
   }
   @media (min-width: $tabletMin) and (max-width: $tabletMax) {
     .disruptive-innovations{

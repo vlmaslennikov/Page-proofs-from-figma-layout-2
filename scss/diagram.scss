@@ -5,9 +5,9 @@ $tabletMax:991.98px;
 $desktopMin:992px;
 $desktopMax:1920px;
 
-.diagram{
-    background-color: rgba(247, 248, 250, 1);
-  
+.diagram-background{
+  background-color: rgba(247, 248, 250, 1);
+  .diagram{
     .diagram-titles{
       p{
         font-weight:700;
@@ -19,19 +19,58 @@ $desktopMax:1920px;
           font-weight:700;
           color: rgba(12, 36, 44, 1);
         }
+      }
+    }
+    .main-diagam{
+      .diagram-block{
         
+        .methodth-name{
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 20px;
+        }
+        .hours{
+          font-size: 16px;
+          font-weight: 300;
+          line-height: 24px;
+        }
+        .rectangle{
+          margin-top: 12px;
+          height:8px ;
+          border-radius: 8px;
+        }
       }
     }
   }
+}
 
-@media (min-width: $desktopMin) and (max-width: $desktopMax){
+.rectangle-heigh{
+  background:rgba(92, 199, 141, 1) ;
+}
+.rectangle-middle{
+  background:linear-gradient(270deg,rgba(171, 178, 188, 1) 2.74%,rgba(206, 211, 218, 1) 100%);
+}
+.rectangle-low{
+  background:linear-gradient(270deg, rgba(137, 146, 159, 1) 2.74%,rgba(206, 211, 218, 1) 100%);
+}
+
+.width-heigh{
+  width:5.71%
+}
+.width-middle{
+  width: 50%;
+}
+.width-low{
+  width: 100%;
+}
+
+
+@media (min-width: $desktopMin){
   .diagram{
-    background-image: url('../assets/images/diagram-large.svg');
-      background-size: 100%;
-      background-repeat: no-repeat;
-    max-width: 100%;
-    height:380px ;
+    width: 1440px;
+    // height:640px ;
     padding: 160px 0 100px 0;
+    margin: 0 auto;
   
     .diagram-titles{
       p{
@@ -52,12 +91,32 @@ $desktopMax:1920px;
       }
     }
     .main-diagam{ 
-      margin: 109px 0 100px 160px;
-      height: 112px;
-  
-      object{
-        width: 200px;
+      padding: 109px 160px 0 160px;
+      .diagram-block{
+        margin-top: -30px;
+        .methodth-name{
+          text-align: right;
+        }
+        .hours{
+          text-align: right;
+        }
       }
+      
+      
+  }
+  .main-diagam{
+    :first-child{
+      .diagram-block{
+        margin-top: 0;
+        .methodth-name{
+          text-align: left;
+        }
+        .hours{
+          text-align: left;
+        }
+      }
+      
+    }
   }
   }
 }

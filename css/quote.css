@@ -1,28 +1,28 @@
-.quote .quote-block .text {
-  font-size: 24px;
-  line-height: 32px;
-  color: #0c242c; }
-
-.quote .quote-block .author {
-  border-left: 8px solid #5cc78d;
-  color: #0c242c; }
-  .quote .quote-block .author .name {
+.quote-background {
+  background-color: white; }
+  .quote-background .quote .quote-block .text {
     font-size: 24px;
-    font-weight: 700;
-    line-height: 28px;
+    line-height: 32px;
     color: #0c242c; }
-  .quote .quote-block .author .ref {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 20px;
+  .quote-background .quote .quote-block .author {
+    border-left: 8px solid #5cc78d;
     color: #0c242c; }
+    .quote-background .quote .quote-block .author .name {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 28px;
+      color: #0c242c; }
+    .quote-background .quote .quote-block .author .ref {
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 20px;
+      color: #0c242c; }
 
-@media (min-width: 992px) and (max-width: 1920px) {
+@media (min-width: 992px) {
   .quote {
-    min-width: 992px;
-    max-width: 100%;
+    width: 1440px;
     height: 460px;
-    background-color: #f7f8fa; }
+    margin: 0 auto; }
     .quote .quote-block {
       padding: 164px 256px 108px 256px; }
       .quote .quote-block .author {
