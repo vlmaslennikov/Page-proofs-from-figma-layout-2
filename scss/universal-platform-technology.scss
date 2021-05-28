@@ -5,6 +5,14 @@ $tabletMax:991.98px;
 $desktopMin:992px;
 $desktopMax:1920px;
 
+
+.universal-platform-title{
+  p{
+    display: inline-flex;
+    text-align: center;
+  }
+}
+
   @media (min-width: $desktopMin)  {
     .universal-platform-background{
       background-image: url('../assets/images/bg-universal-platform-large.png');
@@ -92,6 +100,7 @@ $desktopMax:1920px;
        display: flex;
        flex-direction: column;
        align-items: center;
+       position: relative;
       .universal-platform-title{
         padding-top: 96px;
         margin-bottom: 64px;
@@ -99,6 +108,10 @@ $desktopMax:1920px;
           font-weight:700;
           line-height: 28px;
           color: white;
+          p{
+            display: block;
+            text-align: center;
+          }
         }
       .universal-platform-circle{
           background-image: url('../assets/images/round-elem-small.svg');
@@ -110,10 +123,12 @@ $desktopMax:1920px;
         }
    
     }
-    @media (min-width: $phoneMin) and (max-width: 673px){
+    @media (min-width: $phoneMin) and (max-width: 672.98px){
       .universal-platform-circle{
-        right: calc(100%-673px);
-
+        position: absolute;
+        top:216px;
+        left: calc(100% - 673px);
+        right: calc(100% - 673px);;
       }
     }
   }

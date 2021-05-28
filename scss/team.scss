@@ -16,20 +16,19 @@ $desktopMax:1920px;
     }
     .team-cards{
       .team-card{
+        .face{
+          padding-left: 12px;
+        }
         .position{
+          font-size: 16px;
+          line-height: 20px;
           font-weight: 700;
           color: rgba(92, 199, 141, 1);
-          background-color: white;
-          max-width: 44px;
-          padding: 8px 8px 36px 0;
-          margin-top: -60px;
-          margin-left: -16px;
-          position: relative;
-          z-index: 1;
+          white-space:nowrap;
+          
         }
         .author-name{
           font-weight: 700;
-          margin-top: -30px;
           position: relative;
           z-index: 2;
         }
@@ -74,18 +73,24 @@ $desktopMax:1920px;
         flex-direction: row;
         justify-content: space-between;
         .team-card{
-          img{
+          .face{
             width: 128px;
             height: 200px;
           }
           .position{
-            font-size: 16px;
-            line-height: 20px;
-            color: rgba(92, 199, 141, 1);
+            display: inline-block;
+            vertical-align: top;
+            background-color: white;
+            padding: 8px 8px 36px 0;
+            margin-top: -60px;
+            position: relative;
+            z-index: 1;
           }
           .author-name{
             font-size: 24px;
             line-height: 28px;
+            margin-top: -38px;
+
           }
           .author-location{
             padding: 8px 0 8px 0;
@@ -125,18 +130,12 @@ $desktopMax:1920px;
           display: flex;
           flex-direction: row;
           justify-content: center;
-          img{
-            display: block;
+          .face{
             width: 160px;
             height: 240px;
           }
           .card-text{
             padding-left: 36px;
-            .position{
-              font-size: 16px;
-              line-height: 20px;
-              color: rgba(92, 199, 141, 1);
-            }
             .author-name{
               font-size: 24px;
               line-height: 28px;
@@ -156,9 +155,6 @@ $desktopMax:1920px;
             .author-link{
               display: inline-flex;
               padding-top: 8px ;
-              // a{
-          
-              // }
             }
           }
           
@@ -192,13 +188,16 @@ $desktopMax:1920px;
           .card-text{
             padding-left: 32px;
             .position{
-              font-size: 16px;
-              line-height: 20px;
-              color: rgba(92, 199, 141, 1);
+              background-color: white;
+              padding: 8px 8px 36px 0;
+              margin-top: -60px;
+              position: relative;
+              z-index: 1;
             }
             .author-name{
               font-size: 24px;
               line-height: 28px;
+              margin-top: -30px;
             }
             .author-location{
               padding: 8px 0 8px 0;
@@ -215,9 +214,7 @@ $desktopMax:1920px;
             .author-link{
               display: inline-flex;
               padding-top: 8px ;
-              // a{
-               
-              // }
+          
             }
           }
           

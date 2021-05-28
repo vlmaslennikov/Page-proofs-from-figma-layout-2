@@ -1,3 +1,8 @@
+.universal-platform-title p {
+  display: inline-flex;
+  text-align: center;
+}
+
 @media (min-width: 992px) {
   .universal-platform-background {
     background-image: url("../assets/images/bg-universal-platform-large.png");
@@ -5,27 +10,32 @@
     background-repeat: no-repeat;
     min-width: 1440px;
     max-width: 100%;
-    height: 960px; }
+    height: 960px;
+  }
+
   .universal-platform {
     width: 1440px;
     height: 960px;
-    margin: 0 auto; }
-    .universal-platform .universal-platform-title {
-      padding-top: 142.25px;
-      margin-bottom: 100.75px;
-      font-size: 32px;
-      font-weight: 700;
-      line-height: 36px;
-      color: white;
-      text-align: center; }
-    .universal-platform .universal-platform-circle {
-      background-image: url("../assets/images/round-elem-large.svg");
-      background-size: contain;
-      background-repeat: no-repeat;
-      width: 1083px;
-      height: 587px;
-      margin: 0 auto; } }
-
+    margin: 0 auto;
+  }
+  .universal-platform .universal-platform-title {
+    padding-top: 142.25px;
+    margin-bottom: 100.75px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    color: white;
+    text-align: center;
+  }
+  .universal-platform .universal-platform-circle {
+    background-image: url("../assets/images/round-elem-large.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1083px;
+    height: 587px;
+    margin: 0 auto;
+  }
+}
 @media (min-width: 768px) and (max-width: 991.98px) {
   .universal-platform-background {
     background-image: url("../assets/images/bg-universal-platform-medium.png");
@@ -33,27 +43,32 @@
     background-repeat: no-repeat;
     min-width: 768px;
     max-width: 100%;
-    height: 1480px; }
+    height: 1480px;
+  }
+
   .universal-platform {
     width: 768px;
     height: 1480px;
-    margin: 0 auto; }
-    .universal-platform .universal-platform-title {
-      padding-top: 96px;
-      margin-bottom: 47px;
-      font-size: 32px;
-      font-weight: 700;
-      line-height: 36px;
-      color: white;
-      text-align: center; }
-    .universal-platform .universal-platform-circle {
-      background-image: url("../assets/images/round-elem-medium.svg");
-      background-size: contain;
-      background-repeat: no-repeat;
-      width: 673px;
-      height: 1250px;
-      margin: 0 auto; } }
-
+    margin: 0 auto;
+  }
+  .universal-platform .universal-platform-title {
+    padding-top: 96px;
+    margin-bottom: 47px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    color: white;
+    text-align: center;
+  }
+  .universal-platform .universal-platform-circle {
+    background-image: url("../assets/images/round-elem-medium.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 673px;
+    height: 1250px;
+    margin: 0 auto;
+  }
+}
 @media (min-width: 320px) and (max-width: 767.98px) {
   .universal-platform-background {
     background-image: url("../assets/images/bg-universal-platform-small.png");
@@ -62,27 +77,44 @@
     min-width: 360px;
     max-width: 100%;
     height: 1545px;
-    overflow: hidden; }
+    overflow: hidden;
+  }
+
   .universal-platform {
     height: 1545px;
     display: flex;
     flex-direction: column;
-    align-items: center; }
-    .universal-platform .universal-platform-title {
-      padding-top: 96px;
-      margin-bottom: 64px;
-      font-size: 24px;
-      font-weight: 700;
-      line-height: 28px;
-      color: white; }
-    .universal-platform .universal-platform-circle {
-      background-image: url("../assets/images/round-elem-small.svg");
-      background-size: cover;
-      background-repeat: no-repeat;
-      width: 673px;
-      height: 1190px;
-      margin: 0 auto; } }
-
-@media (min-width: 320px) and (max-width: 767.98px) and (min-width: 320px) and (max-width: 673px) {
+    align-items: center;
+    position: relative;
+  }
+  .universal-platform .universal-platform-title {
+    padding-top: 96px;
+    margin-bottom: 64px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    color: white;
+  }
+  .universal-platform .universal-platform-title p {
+    display: block;
+    text-align: center;
+  }
+  .universal-platform .universal-platform-circle {
+    background-image: url("../assets/images/round-elem-small.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 673px;
+    height: 1190px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 320px) and (max-width: 767.98px) and (min-width: 320px) and (max-width: 672.98px) {
   .universal-platform-circle {
-    right: calc(100%-673px); } }
+    position: absolute;
+    top: 216px;
+    left: calc(100% - 673px);
+    right: calc(100% - 673px);
+  }
+}
+
+/*# sourceMappingURL=universal-platform-technology.css.map */
