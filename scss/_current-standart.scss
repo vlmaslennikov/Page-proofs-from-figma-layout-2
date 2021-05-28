@@ -1,9 +1,4 @@
-$phoneMin: 320px;
-$phoneMax: 767.98px;
-$tabletMin: 768px;
-$tabletMax: 991.98px;
-$desktopMin: 992px;
-$desktopMax: 1920px;
+@import '_variables';
 
 .current-standart-container {
   .grey-line {
