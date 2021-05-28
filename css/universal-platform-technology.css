@@ -3,7 +3,7 @@
   text-align: center; }
 
 @media (min-width: 992px) {
-  .universal-platform-background {
+  .universal-platform-container {
     background-image: url("../assets/images/bg-universal-platform-large.png");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -31,7 +31,7 @@
       margin: 0 auto; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .universal-platform-background {
+  .universal-platform-container {
     background-image: url("../assets/images/bg-universal-platform-medium.png");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -59,7 +59,7 @@
       margin: 0 auto; } }
 
 @media (min-width: 320px) and (max-width: 767.98px) {
-  .universal-platform-background {
+  .universal-platform-container {
     background-image: url("../assets/images/bg-universal-platform-small.png");
     background-size: 100%;
     background-repeat: no-repeat;

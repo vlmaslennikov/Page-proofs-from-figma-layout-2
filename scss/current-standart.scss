@@ -5,7 +5,7 @@ $tabletMax: 991.98px;
 $desktopMin: 992px;
 $desktopMax: 1920px;
 
-.current-standart-background {
+.current-standart-container {
   .grey-line {
     position: absolute;
     border-right: 2px solid rgba(12, 36, 44, 1);
@@ -66,7 +66,7 @@ $desktopMax: 1920px;
 }
 
 @media (min-width: $desktopMin) {
-  .current-standart-background {
+  .current-standart-container {
     background-image: url("../assets/images/bg-current-standart-large.png");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -139,7 +139,7 @@ $desktopMax: 1920px;
 }
 
 @media (min-width: $tabletMin) and (max-width: $tabletMax) {
-  .current-standart-background {
+  .current-standart-container {
     background-image: url("../assets/images/bg-current-standart-medium.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -201,7 +201,7 @@ $desktopMax: 1920px;
 }
 
 @media (min-width: $phoneMin) and (max-width: $phoneMax) {
-  .current-standart-background {
+  .current-standart-container {
     background-image: url("../assets/images/bg-current-standart-small.png");
     background-size: cover;
     background-repeat: no-repeat;

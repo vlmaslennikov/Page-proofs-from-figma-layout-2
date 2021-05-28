@@ -4,7 +4,7 @@ $tabletMin: 768px;
 $tabletMax: 991.98px;
 $desktopMin: 992px;
 
-.titleBackground {
+.title-container{
   .title {
     .title-header {
       display: flex;
@@ -44,10 +44,10 @@ $desktopMin: 992px;
         font-weight: 700;
         line-height: 16px;
         text-align: center;
-        background-color: transparent;
         color: white;
+        background-color: transparent;
+        border: 1px solid white ;
         border-radius: 32px;
-        border-color: white;
       }
       .btn-get-in-touch:hover {
         opacity: 0.7;
@@ -57,7 +57,7 @@ $desktopMin: 992px;
 }
 
 @media (min-width: $desktopMin) {
-  .title-background {
+  .title-container{
     background-image: url("../assets/images/bg-title-large.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -99,6 +99,7 @@ $desktopMin: 992px;
         margin: 32px calc(50% - 928px / 2) 87px calc(50% - 928px / 2);
         display: flex;
         flex-direction: row;
+        text-transform: uppercase;
         .btn-learn-more {
           width: 256px;
           height: 48px;
@@ -114,7 +115,7 @@ $desktopMin: 992px;
 }
 
 @media (min-width: $tabletMin) and (max-width: $tabletMax) {
-  .title-background {
+  .title-container{
     background-image: url("../assets/images/bg-title-medium.svg");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -172,7 +173,7 @@ $desktopMin: 992px;
 }
 
 @media (min-width: $phoneMin) and (max-width: $phoneMax) {
-  .title-background {
+  .title-container{
     background-image: url("../assets/images/bg-title-small.svg");
     background-size: 100%;
     background-repeat: no-repeat;

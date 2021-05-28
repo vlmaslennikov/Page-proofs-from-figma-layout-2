@@ -1,34 +1,29 @@
-.current-standart-background .grey-line {
+.current-standart-container .grey-line {
   position: absolute;
   border-right: 2px solid #0c242c;
-  opacity: 0.2;
-}
-.current-standart-background .current-standart .big-container .titles {
-  z-index: 1;
-}
-.current-standart-background .current-standart .big-container .titles .small-title {
+  opacity: 0.2; }
+
+.current-standart-container .current-standart .big-container .titles {
+  z-index: 1; }
+  .current-standart-container .current-standart .big-container .titles .small-title {
+    font-weight: 700; }
+  .current-standart-container .current-standart .big-container .titles div {
+    border-left: 8px solid #ced3da; }
+    .current-standart-container .current-standart .big-container .titles div .big-title {
+      font-style: normal;
+      font-weight: bold;
+      color: #0c242c; }
+      .current-standart-container .current-standart .big-container .titles div .big-title span {
+        color: #f8634e; }
+
+.current-standart-container .current-standart .big-container .main-content .card :nth-child(2) {
   font-weight: 700;
-}
-.current-standart-background .current-standart .big-container .titles div {
-  border-left: 8px solid #ced3da;
-}
-.current-standart-background .current-standart .big-container .titles div .big-title {
-  font-style: normal;
-  font-weight: bold;
-  color: #0c242c;
-}
-.current-standart-background .current-standart .big-container .titles div .big-title span {
-  color: #f8634e;
-}
-.current-standart-background .current-standart .big-container .main-content .card :nth-child(2) {
-  font-weight: 700;
-  color: #0c242c;
-}
-.current-standart-background .current-standart .big-container .main-content .card :nth-child(3) {
+  color: #0c242c; }
+
+.current-standart-container .current-standart .big-container .main-content .card :nth-child(3) {
   padding-top: 16px;
   font-weight: 400;
-  color: #0c242c;
-}
+  color: #0c242c; }
 
 .circle {
   width: 32px;
@@ -36,8 +31,7 @@
   background: white;
   border-radius: 50%;
   position: relative;
-  z-index: 2;
-}
+  z-index: 2; }
 
 .dot {
   background: #f8634e;
@@ -47,202 +41,156 @@
   position: absolute;
   left: 12px;
   top: 12px;
-  z-index: 2;
-}
+  z-index: 2; }
 
 @media (min-width: 992px) {
-  .current-standart-background {
+  .current-standart-container {
     background-image: url("../assets/images/bg-current-standart-large.png");
     background-size: 100%;
     background-repeat: no-repeat;
     min-width: 1440px;
     max-width: 100%;
-    height: 1942px;
-  }
-  .current-standart-background .current-standart {
-    width: 1440px;
-    height: 1942px;
-    margin: 0 auto;
-  }
-  .current-standart-background .current-standart .big-container {
-    padding: 96px 224px 0 224px;
-  }
-  .current-standart-background .current-standart .big-container .titles {
-    width: 100%;
-    padding-bottom: 158px;
-  }
-  .current-standart-background .current-standart .big-container .titles .small-title {
-    padding: 0 0 8px 32px;
-    font-size: 32px;
-    line-height: 36px;
-  }
-  .current-standart-background .current-standart .big-container .titles div {
-    padding-top: 8px;
-    border-left: 8px solid #ced3da;
-  }
-  .current-standart-background .current-standart .big-container .titles div .big-title {
-    padding-left: 24px;
-    font-size: 48px;
-    line-height: 56px;
-  }
-  .current-standart-background .current-standart .big-container .main-content {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .current-standart-background .current-standart .big-container .main-content .card {
-    padding-top: 114px;
-    padding-right: 25px;
-    width: 352px;
-    height: 270px;
-  }
-  .current-standart-background .current-standart .big-container .main-content .card .circle {
-    margin-left: 481px;
-    margin-bottom: -32px;
-  }
-  .current-standart-background .current-standart .big-container .main-content .card :nth-child(2) {
-    font-size: 32px;
-    line-height: 36px;
-  }
-  .current-standart-background .current-standart .big-container .main-content .card :nth-child(3) {
-    font-size: 24px;
-    line-height: 32px;
-  }
-  .current-standart-background .current-standart .big-container .main-content .card:nth-child(odd) {
-    align-self: flex-end;
-  }
-  .current-standart-background .current-standart .big-container .main-content .card:nth-child(odd) .circle {
-    margin-left: -134px;
-  }
-
+    height: 1942px; }
+    .current-standart-container .current-standart {
+      width: 1440px;
+      height: 1942px;
+      margin: 0 auto; }
+      .current-standart-container .current-standart .big-container {
+        padding: 96px 224px 0 224px; }
+        .current-standart-container .current-standart .big-container .titles {
+          width: 100%;
+          padding-bottom: 158px; }
+          .current-standart-container .current-standart .big-container .titles .small-title {
+            padding: 0 0 8px 32px;
+            font-size: 32px;
+            line-height: 36px; }
+          .current-standart-container .current-standart .big-container .titles div {
+            padding-top: 8px;
+            border-left: 8px solid #ced3da; }
+            .current-standart-container .current-standart .big-container .titles div .big-title {
+              padding-left: 24px;
+              font-size: 48px;
+              line-height: 56px; }
+        .current-standart-container .current-standart .big-container .main-content {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start; }
+          .current-standart-container .current-standart .big-container .main-content .card {
+            padding-top: 114px;
+            padding-right: 25px;
+            width: 352px;
+            height: 270px; }
+            .current-standart-container .current-standart .big-container .main-content .card .circle {
+              margin-left: 481px;
+              margin-bottom: -32px; }
+            .current-standart-container .current-standart .big-container .main-content .card :nth-child(2) {
+              font-size: 32px;
+              line-height: 36px; }
+            .current-standart-container .current-standart .big-container .main-content .card :nth-child(3) {
+              font-size: 24px;
+              line-height: 32px; }
+            .current-standart-container .current-standart .big-container .main-content .card:nth-child(odd) {
+              align-self: flex-end; }
+              .current-standart-container .current-standart .big-container .main-content .card:nth-child(odd) .circle {
+                margin-left: -134px; }
   .grey-line {
     height: 1942px;
-    min-width: 720px;
-  }
-}
+    min-width: 720px; } }
+
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .current-standart-background {
+  .current-standart-container {
     background-image: url("../assets/images/bg-current-standart-medium.png");
     background-size: cover;
     background-repeat: no-repeat;
     min-width: 768px;
     max-width: 100%;
-    height: 2000px;
-  }
-  .current-standart-background .current-standart {
-    width: 768px;
-    height: 2000px;
-    margin: 0 auto;
-  }
-  .current-standart-background .current-standart div .titles {
-    padding-top: 96px;
-    padding-right: 16px;
-  }
-  .current-standart-background .current-standart div .titles .small-title {
-    padding: 0 0 8px 32px;
-    font-size: 32px;
-    line-height: 36px;
-  }
-  .current-standart-background .current-standart div .titles div {
-    padding-top: 8px;
-    border-left: 8px solid #ced3da;
-  }
-  .current-standart-background .current-standart div .titles div .big-title {
-    padding-left: 24px;
-    font-size: 48px;
-    line-height: 56px;
-  }
-  .current-standart-background .current-standart div .main-content {
-    padding-right: 16px;
-    margin-top: 120px;
-    padding-left: 400px;
-  }
-  .current-standart-background .current-standart div .main-content .card {
-    width: 336px;
-    height: 384px;
-  }
-  .current-standart-background .current-standart div .main-content .card .circle {
-    margin-left: -207px;
-    margin-bottom: -32px;
-  }
-  .current-standart-background .current-standart div .main-content .card :nth-child(2) {
-    font-size: 32px;
-    line-height: 36px;
-  }
-  .current-standart-background .current-standart div .main-content .card :nth-child(3) {
-    font-size: 24px;
-    line-height: 32px;
-  }
-
+    height: 2000px; }
+    .current-standart-container .current-standart {
+      width: 768px;
+      height: 2000px;
+      margin: 0 auto; }
+      .current-standart-container .current-standart div .titles {
+        padding-top: 96px;
+        padding-right: 16px; }
+        .current-standart-container .current-standart div .titles .small-title {
+          padding: 0 0 8px 32px;
+          font-size: 32px;
+          line-height: 36px; }
+        .current-standart-container .current-standart div .titles div {
+          padding-top: 8px;
+          border-left: 8px solid #ced3da; }
+          .current-standart-container .current-standart div .titles div .big-title {
+            padding-left: 24px;
+            font-size: 48px;
+            line-height: 56px; }
+      .current-standart-container .current-standart div .main-content {
+        padding-right: 16px;
+        margin-top: 120px;
+        padding-left: 400px; }
+        .current-standart-container .current-standart div .main-content .card {
+          width: 336px;
+          height: 384px; }
+          .current-standart-container .current-standart div .main-content .card .circle {
+            margin-left: -207px;
+            margin-bottom: -32px; }
+          .current-standart-container .current-standart div .main-content .card :nth-child(2) {
+            font-size: 32px;
+            line-height: 36px; }
+          .current-standart-container .current-standart div .main-content .card :nth-child(3) {
+            font-size: 24px;
+            line-height: 32px; }
   .grey-line {
     height: 2000px;
-    min-width: 208px;
-  }
-}
+    min-width: 208px; } }
+
 @media (min-width: 320px) and (max-width: 767.98px) {
-  .current-standart-background {
+  .current-standart-container {
     background-image: url("../assets/images/bg-current-standart-small.png");
     background-size: cover;
     background-repeat: no-repeat;
     min-width: 360px;
     max-width: 100%;
-    height: 1440px;
-  }
-  .current-standart-background .current-standart {
-    width: 360px;
-    height: 1440px;
-    margin: 0 auto;
-  }
-  .current-standart-background .current-standart div .titles {
-    padding-top: 96px;
-    padding-right: 16px;
-  }
-  .current-standart-background .current-standart div .titles .small-title {
-    padding: 0 0 8px 32px;
-    font-size: 24px;
-    line-height: 28px;
-  }
-  .current-standart-background .current-standart div .titles div {
-    padding-top: 8px;
-    border-left: 8px solid #ced3da;
-  }
-  .current-standart-background .current-standart div .titles div .big-title {
-    width: 300px;
-    padding-left: 24px;
-    font-size: 32px;
-    line-height: 36px;
-  }
-  .current-standart-background .current-standart div .main-content {
-    padding-right: 16px;
-    margin-top: 124px;
-    padding-left: 87px;
-  }
-  .current-standart-background .current-standart div .main-content .card {
-    width: 248px;
-    height: 264px;
-  }
-  .current-standart-background .current-standart div .main-content .card .circle {
-    margin-left: -60px;
-    margin-bottom: -27px;
-  }
-  .current-standart-background .current-standart div .main-content .card :fnth-child(2) {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 28px;
-    color: #0c242c;
-  }
-  .current-standart-background .current-standart div .main-content .card :nth-child(3) {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #0c242c;
-  }
-
+    height: 1440px; }
+    .current-standart-container .current-standart {
+      width: 360px;
+      height: 1440px;
+      margin: 0 auto; }
+      .current-standart-container .current-standart div .titles {
+        padding-top: 96px;
+        padding-right: 16px; }
+        .current-standart-container .current-standart div .titles .small-title {
+          padding: 0 0 8px 32px;
+          font-size: 24px;
+          line-height: 28px; }
+        .current-standart-container .current-standart div .titles div {
+          padding-top: 8px;
+          border-left: 8px solid #ced3da; }
+          .current-standart-container .current-standart div .titles div .big-title {
+            width: 300px;
+            padding-left: 24px;
+            font-size: 32px;
+            line-height: 36px; }
+      .current-standart-container .current-standart div .main-content {
+        padding-right: 16px;
+        margin-top: 124px;
+        padding-left: 87px; }
+        .current-standart-container .current-standart div .main-content .card {
+          width: 248px;
+          height: 264px; }
+          .current-standart-container .current-standart div .main-content .card .circle {
+            margin-left: -60px;
+            margin-bottom: -27px; }
+          .current-standart-container .current-standart div .main-content .card :fnth-child(2) {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 28px;
+            color: #0c242c; }
+          .current-standart-container .current-standart div .main-content .card :nth-child(3) {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: #0c242c; }
   .grey-line {
     height: 1440px;
-    min-width: 28px;
-  }
-}
-
-/*# sourceMappingURL=current-standart.css.map */
+    min-width: 28px; } }

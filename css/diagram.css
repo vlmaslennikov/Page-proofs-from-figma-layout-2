@@ -1,22 +1,23 @@
-.diagram-background {
+.diagram-container {
   background-color: #f7f8fa; }
-  .diagram-background .diagram .diagram-titles p {
+  .diagram-container .diagram .diagram-titles p {
     font-weight: 700;
     color: #0c242c; }
-  .diagram-background .diagram .diagram-titles div {
+  .diagram-container .diagram .diagram-titles div {
+    margin-top: 16px;
     border-left: 8px solid #5cc78d; }
-    .diagram-background .diagram .diagram-titles div p {
+    .diagram-container .diagram .diagram-titles div p {
       font-weight: 700;
       color: #0c242c; }
-  .diagram-background .diagram .main-diagam .diagram-block .methodth-name {
+  .diagram-container .diagram .main-diagram .diagram-block .methodth-name {
     font-size: 16px;
     font-weight: 700;
     line-height: 20px; }
-  .diagram-background .diagram .main-diagam .diagram-block .hours {
+  .diagram-container .diagram .main-diagram .diagram-block .hours {
     font-size: 16px;
     font-weight: 300;
     line-height: 24px; }
-  .diagram-background .diagram .main-diagam .diagram-block .rectangle {
+  .diagram-container .diagram .main-diagram .diagram-block .rectangle {
     margin-top: 12px;
     height: 8px;
     border-radius: 8px; }
@@ -48,19 +49,19 @@
         padding-left: 24px;
         font-size: 48px;
         line-height: 56px; }
-    .diagram .main-diagam {
+    .diagram .main-diagram {
       padding: 109px 160px 0 160px; }
-      .diagram .main-diagam .diagram-block {
+      .diagram .main-diagram .diagram-block {
         margin-top: -30px; }
-        .diagram .main-diagam .diagram-block .methodth-name {
+        .diagram .main-diagram .diagram-block .methodth-name {
           text-align: right; }
-        .diagram .main-diagam .diagram-block .hours {
+        .diagram .main-diagram .diagram-block .hours {
           text-align: right; }
-    .diagram .main-diagam :first-child .diagram-block {
+    .diagram .main-diagram :first-child .diagram-block {
       margin-top: 0; }
-      .diagram .main-diagam :first-child .diagram-block .methodth-name {
+      .diagram .main-diagram :first-child .diagram-block .methodth-name {
         text-align: left; }
-      .diagram .main-diagam :first-child .diagram-block .hours {
+      .diagram .main-diagram :first-child .diagram-block .hours {
         text-align: left; }
   .width-upper {
     width: 5.71%; }
@@ -91,7 +92,7 @@
           line-height: 56px; }
           .diagram .diagram-titles div p br {
             display: none; }
-  .main-diagam {
+  .main-diagram {
     background-image: url("../assets/images/diagram-medium.svg");
     background-size: 100%;
     margin: 76px 32px 72px 32px;
@@ -126,7 +127,7 @@
           line-height: 36px; }
           .diagram .diagram-titles div p br {
             display: none; }
-  .main-diagam {
+  .main-diagram {
     background-image: url("../assets/images/diagram-small.svg");
     background-size: 100%;
     margin: 64px 32px 72px 32px;

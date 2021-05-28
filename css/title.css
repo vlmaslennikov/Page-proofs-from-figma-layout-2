@@ -1,21 +1,21 @@
-.titleBackground .title .title-header {
+.title-container .title .title-header {
   display: flex;
   flex-direction: row; }
-  .titleBackground .title .title-header img {
+  .title-container .title .title-header img {
     display: block;
     height: 48px;
     width: 135px; }
 
-.titleBackground .title .main-title {
+.title-container .title .main-title {
   color: white;
   font-style: normal;
   font-weight: 300; }
-  .titleBackground .title .main-title span {
+  .title-container .title .main-title span {
     font-weight: 700; }
 
-.titleBackground .title .buttons {
+.title-container .title .buttons {
   display: flex; }
-  .titleBackground .title .buttons .btn-learn-more {
+  .title-container .title .buttons .btn-learn-more {
     font-size: 14px;
     font-weight: 700;
     line-height: 16px;
@@ -24,104 +24,105 @@
     color: white;
     border-radius: 32px;
     border-color: transparent; }
-  .titleBackground .title .buttons .btn-learn-more:hover {
+  .title-container .title .buttons .btn-learn-more:hover {
     opacity: 0.7; }
-  .titleBackground .title .buttons .btn-get-in-touch {
+  .title-container .title .buttons .btn-get-in-touch {
     font-size: 14px;
     font-weight: 700;
     line-height: 16px;
     text-align: center;
-    background-color: transparent;
     color: white;
-    border-radius: 32px;
-    border-color: white; }
-  .titleBackground .title .buttons .btn-get-in-touch:hover {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 32px; }
+  .title-container .title .buttons .btn-get-in-touch:hover {
     opacity: 0.7; }
 
 @media (min-width: 992px) {
-  .title-background {
+  .title-container {
     background-image: url("../assets/images/bg-title-large.png");
     background-size: cover;
     background-repeat: no-repeat;
     min-width: 1440px;
     max-width: 100%;
     height: 800px; }
-    .title-background .title {
+    .title-container .title {
       margin: 0 auto;
       width: 1440px;
       height: 800px; }
-      .title-background .title .title-header {
+      .title-container .title .title-header {
         margin: 0 160px;
         padding-top: 32px;
         display: flex;
         flex-direction: row;
         justify-content: space-between; }
-        .title-background .title .title-header img {
+        .title-container .title .title-header img {
           display: block;
           height: 48px;
           width: 135px; }
-        .title-background .title .title-header .phone {
+        .title-container .title .title-header .phone {
           height: 24px;
           color: white; }
-      .title-background .title .main-title {
+      .title-container .title .main-title {
         margin: 385px calc(50% - 928px / 2) 0 calc(50% - 928px / 2);
         min-width: 992px;
         max-width: 100%;
         height: 168px;
         font-size: 48px;
         line-height: 56px; }
-      .title-background .title .buttons {
+      .title-container .title .buttons {
         margin: 32px calc(50% - 928px / 2) 87px calc(50% - 928px / 2);
         display: flex;
-        flex-direction: row; }
-        .title-background .title .buttons .btn-learn-more {
+        flex-direction: row;
+        text-transform: uppercase; }
+        .title-container .title .buttons .btn-learn-more {
           width: 256px;
           height: 48px; }
-        .title-background .title .buttons .btn-get-in-touch {
+        .title-container .title .buttons .btn-get-in-touch {
           width: 160px;
           height: 48px;
           margin: 0 32px; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .title-background {
+  .title-container {
     background-image: url("../assets/images/bg-title-medium.svg");
     background-size: 100%;
     background-repeat: no-repeat;
     min-width: 768px;
     max-width: 100%;
     height: 1024px; }
-    .title-background .title {
+    .title-container .title {
       width: 768px;
       height: 1024px;
       margin: 0 auto; }
-      .title-background .title .title-header {
+      .title-container .title .title-header {
         margin: 0 160px;
         padding-top: 32px;
         display: flex;
         flex-direction: row;
         justify-content: center; }
-        .title-background .title .title-header img {
+        .title-container .title .title-header img {
           display: block;
           height: 48px;
           width: 135px; }
-        .title-background .title .title-header .phone {
+        .title-container .title .title-header .phone {
           display: none; }
-      .title-background .title .decoration-text {
+      .title-container .title .decoration-text {
         display: none; }
-      .title-background .title .main-title {
+      .title-container .title .main-title {
         margin: 584px 32px 0 32px;
         height: 168px;
         font-size: 48px;
         line-height: 56px; }
-        .title-background .title .main-title br {
+        .title-container .title .main-title br {
           display: none; }
-      .title-background .title .buttons {
+      .title-container .title .buttons {
         margin: 16px 32px 16px 32px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start; }
-        .title-background .title .buttons .btn-learn-more,
-        .title-background .title .buttons .btn-get-in-touch {
+        .title-container .title .buttons .btn-learn-more,
+        .title-container .title .buttons .btn-get-in-touch {
           width: 50%;
           height: 48px;
           margin-top: 16px;
@@ -129,47 +130,47 @@
           line-height: 16px; } }
 
 @media (min-width: 320px) and (max-width: 767.98px) {
-  .title-background {
+  .title-container {
     background-image: url("../assets/images/bg-title-small.svg");
     background-size: 100%;
     background-repeat: no-repeat;
     min-width: 360px;
     max-width: 100%;
     height: 640px; }
-    .title-background .title {
+    .title-container .title {
       width: 360px;
       height: 640px;
       margin: 0 auto;
       position: relative; }
-      .title-background .title .title-header {
+      .title-container .title .title-header {
         margin: 0 160px;
         padding-top: 32px;
         display: flex;
         flex-direction: row;
         justify-content: center; }
-        .title-background .title .title-header img {
+        .title-container .title .title-header img {
           display: block;
           height: 48px;
           width: 135px; }
-        .title-background .title .title-header .phone {
+        .title-container .title .title-header .phone {
           display: none; }
-      .title-background .title .decoration-text {
+      .title-container .title .decoration-text {
         display: none; }
-      .title-background .title .main-title {
+      .title-container .title .main-title {
         margin: 193px 32px 0 32px;
         font-size: 32px;
         font-style: normal;
         font-weight: 300;
         line-height: 36px; }
-        .title-background .title .main-title br {
+        .title-container .title .main-title br {
           display: none; }
-      .title-background .title .buttons {
+      .title-container .title .buttons {
         margin: 16px 32px 16px 32px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start; }
-        .title-background .title .buttons .btn-learn-more,
-        .title-background .title .buttons .btn-get-in-touch {
+        .title-container .title .buttons .btn-learn-more,
+        .title-container .title .buttons .btn-get-in-touch {
           width: 100%;
           height: 48px;
           margin-top: 16px;

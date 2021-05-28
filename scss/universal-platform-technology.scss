@@ -13,7 +13,7 @@ $desktopMax: 1920px;
 }
 
 @media (min-width: $desktopMin) {
-  .universal-platform-background {
+  .universal-platform-container {
     background-image: url("../assets/images/bg-universal-platform-large.png");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -45,7 +45,7 @@ $desktopMax: 1920px;
   }
 }
 @media (min-width: $tabletMin) and (max-width: $tabletMax) {
-  .universal-platform-background {
+  .universal-platform-container {
     background-image: url("../assets/images/bg-universal-platform-medium.png");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -76,8 +76,9 @@ $desktopMax: 1920px;
     }
   }
 }
+
 @media (min-width: $phoneMin) and (max-width: $phoneMax) {
-  .universal-platform-background {
+  .universal-platform-container {
     background-image: url("../assets/images/bg-universal-platform-small.png");
     background-size: 100%;
     background-repeat: no-repeat;

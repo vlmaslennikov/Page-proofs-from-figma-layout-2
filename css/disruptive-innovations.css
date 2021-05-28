@@ -1,21 +1,21 @@
-.disruptive-innovations-background {
+.disruptive-innovations-container {
   background-color: #f7f8fa; }
-  .disruptive-innovations-background .disruptive-innovations {
+  .disruptive-innovations-container .disruptive-innovations {
     font-size: 24px;
     line-height: 32px; }
-    .disruptive-innovations-background .disruptive-innovations .first-block .di-title {
+    .disruptive-innovations-container .disruptive-innovations .first-block .di-title {
       border-left: 8px solid #5cc78d;
       color: #0c242c; }
-      .disruptive-innovations-background .disruptive-innovations .first-block .di-title p {
+      .disruptive-innovations-container .disruptive-innovations .first-block .di-title p {
         margin-left: 24px;
         font-size: 48px;
         font-weight: 700;
         line-height: 56px; }
-    .disruptive-innovations-background .disruptive-innovations .second-block li {
+    .disruptive-innovations-container .disruptive-innovations .second-block li {
       padding: 16px 0 8px 0;
       margin-left: 5px;
       list-style-type: none; }
-    .disruptive-innovations-background .disruptive-innovations .second-block li div {
+    .disruptive-innovations-container .disruptive-innovations .second-block li div {
       display: inline-flex;
       margin-bottom: 7px;
       margin-right: 14px;
