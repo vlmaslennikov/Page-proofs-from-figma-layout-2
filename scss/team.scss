@@ -1,59 +1,57 @@
-$phoneMin:320px;
-$phoneMax:767.98px;
-$tabletMin:768px;
-$tabletMax:991.98px;
-$desktopMin:992px;
-$desktopMax:1920px;
+$phoneMin: 320px;
+$phoneMax: 767.98px;
+$tabletMin: 768px;
+$tabletMax: 991.98px;
+$desktopMin: 992px;
+$desktopMax: 1920px;
 
-.team-background{
+.team-background {
   background-color: white;
-  .team{
-    .team-title{
+  .team {
+    .team-title {
       font-size: 48px;
       font-weight: 700;
       line-height: 56px;
       text-align: center;
     }
-    .team-cards{
-      .team-card{
-        .face{
+    .team-cards {
+      .team-card {
+        .face {
           padding-left: 12px;
         }
-        .position{
+        .position {
           font-size: 16px;
           line-height: 20px;
           font-weight: 700;
           color: rgba(92, 199, 141, 1);
-          white-space:nowrap;
-          
+          white-space: nowrap;
         }
-        .author-name{
+        .author-name {
           font-weight: 700;
           position: relative;
           z-index: 2;
         }
-        .author-location{
+        .author-location {
           font-weight: 400;
         }
-        .author-about{
+        .author-about {
           font-weight: 400;
           opacity: 0.6;
         }
-        .author-link{
-          padding-top: 8px ;
-          img{
+        .author-link {
+          padding-top: 8px;
+          img {
             width: 24px;
             height: 24px;
           }
-          a{
-            background-image: url('../assets/images/social-ref.svg');
+          a {
+            background-image: url("../assets/images/social-ref.svg");
             background-repeat: no-repeat;
             background-size: 30%;
             margin-top: 6px;
             margin-left: 16px;
             width: 216px;
             height: 20px;
-            
           }
         }
       }
@@ -61,168 +59,158 @@ $desktopMax:1920px;
   }
 }
 
+@media (min-width: $desktopMin) {
+  .team {
+    width: 1440px;
+    height: 720px;
+    margin: 0 auto;
+    .team-cards {
+      padding: 90px 160px 86.2px 256px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .team-card {
+        .face {
+          width: 128px;
+          height: 200px;
+        }
+        .position {
+          display: inline-block;
+          vertical-align: top;
+          background-color: white;
+          padding: 8px 8px 36px 0;
+          margin-top: -60px;
+          position: relative;
+          z-index: 1;
+        }
+        .author-name {
+          font-size: 24px;
+          line-height: 28px;
+          margin-top: -38px;
+        }
+        .author-location {
+          padding: 8px 0 8px 0;
+          font-size: 16px;
+          line-height: 24px;
+        }
+        .author-about {
+          width: 256px;
+          height: 96px;
+          padding: 8px 0 8px 0;
+          font-size: 16px;
+          line-height: 24px;
+        }
+        .author-link {
+          display: inline-flex;
+          padding-top: 8px;
+        }
+      }
+    }
+  }
+}
 
-  @media (min-width: $desktopMin){
-    .team{
-      width: 1440px;
-      height: 720px;
-      margin: 0 auto;
-      .team-cards{
-        padding: 90px 160px 86.2px 256px;
+@media (min-width: $tabletMin) and (max-width: $tabletMax) {
+  .team {
+    width: 768px;
+    height: 1200px;
+    margin: 0 auto;
+    padding-top: 96px;
+    .team-cards {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .team-card {
+        padding-top: 66px;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        .team-card{
-          .face{
-            width: 128px;
-            height: 200px;
+        justify-content: center;
+        .face {
+          width: 160px;
+          height: 240px;
+        }
+        .card-text {
+          padding-left: 36px;
+          .author-name {
+            font-size: 24px;
+            line-height: 28px;
           }
-          .position{
-            display: inline-block;
-            vertical-align: top;
+          .author-location {
+            padding: 8px 0 8px 0;
+            font-size: 16px;
+            line-height: 24px;
+          }
+          .author-about {
+            width: 244px;
+            height: 96px;
+            padding: 8px 0 8px 0;
+            font-size: 16px;
+            line-height: 24px;
+          }
+          .author-link {
+            display: inline-flex;
+            padding-top: 8px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: $phoneMin) and (max-width: $phoneMax) {
+  .team {
+    width: 360px;
+    height: 1680px;
+    margin: 0 auto;
+    padding: 96px 0;
+    .team-cards {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .team-card {
+        padding-top: 66px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .face {
+          padding-left: 48px;
+          display: block;
+          width: 154px;
+          height: 240px;
+        }
+        .card-text {
+          padding-left: 32px;
+          .position {
             background-color: white;
             padding: 8px 8px 36px 0;
             margin-top: -60px;
             position: relative;
             z-index: 1;
           }
-          .author-name{
+          .author-name {
             font-size: 24px;
             line-height: 28px;
-            margin-top: -38px;
-
+            margin-top: -30px;
           }
-          .author-location{
+          .author-location {
             padding: 8px 0 8px 0;
             font-size: 16px;
             line-height: 24px;
           }
-          .author-about{
-            width: 256px;
+          .author-about {
+            width: 244px;
             height: 96px;
             padding: 8px 0 8px 0;
             font-size: 16px;
             line-height: 24px;
           }
-          .author-link{
+          .author-link {
             display: inline-flex;
-            padding-top: 8px ;
+            padding-top: 8px;
           }
         }
       }
     }
-  
   }
-
-  @media (min-width: $tabletMin) and (max-width: $tabletMax) {
-    .team{
-      width: 768px;
-      height: 1200px;
-      margin: 0 auto;
-      padding-top: 96px;
-      .team-cards{
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-    
-        .team-card{
-          padding-top: 66px;
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          .face{
-            width: 160px;
-            height: 240px;
-          }
-          .card-text{
-            padding-left: 36px;
-            .author-name{
-              font-size: 24px;
-              line-height: 28px;
-            }
-            .author-location{
-              padding: 8px 0 8px 0;
-              font-size: 16px;
-              line-height: 24px;
-            }
-            .author-about{
-              width: 244px;
-              height: 96px;
-              padding: 8px 0 8px 0;
-              font-size: 16px;
-              line-height: 24px;
-            }
-            .author-link{
-              display: inline-flex;
-              padding-top: 8px ;
-            }
-          }
-          
-        }
-      }
-    }
-  }
-
-  @media (min-width: $phoneMin) and (max-width: $phoneMax) {
-    .team{
-      width: 360px;
-      height: 1680px;
-      margin: 0 auto;
-      padding: 96px 0;
-      .team-cards{
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-    
-        .team-card{
-          padding-top: 66px;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          .face{
-            padding-left: 48px;
-            display: block;
-            width: 154px;
-            height: 240px;
-          }
-          .card-text{
-            padding-left: 32px;
-            .position{
-              background-color: white;
-              padding: 8px 8px 36px 0;
-              margin-top: -60px;
-              position: relative;
-              z-index: 1;
-            }
-            .author-name{
-              font-size: 24px;
-              line-height: 28px;
-              margin-top: -30px;
-            }
-            .author-location{
-              padding: 8px 0 8px 0;
-              font-size: 16px;
-              line-height: 24px;
-            }
-            .author-about{
-              width: 244px;
-              height: 96px;
-              padding: 8px 0 8px 0;
-              font-size: 16px;
-              line-height: 24px;
-            }
-            .author-link{
-              display: inline-flex;
-              padding-top: 8px ;
-          
-            }
-          }
-          
-        }
-      }
-    }
-    
-  }
- 
-
-  
+}

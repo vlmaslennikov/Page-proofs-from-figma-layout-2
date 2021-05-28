@@ -1,32 +1,32 @@
-$phoneMin:320px;
-$phoneMax:767.98px;
-$tabletMin:768px;
-$tabletMax:991.98px;
-$desktopMin:992px;
+$phoneMin: 320px;
+$phoneMax: 767.98px;
+$tabletMin: 768px;
+$tabletMax: 991.98px;
+$desktopMin: 992px;
 
-.titleBackground{
-  .title{
-    .title-header{
+.titleBackground {
+  .title {
+    .title-header {
       display: flex;
       flex-direction: row;
-      img{
+      img {
         display: block;
         height: 48px;
         width: 135px;
       }
     }
-   
-    .main-title{
+
+    .main-title {
       color: white;
       font-style: normal;
       font-weight: 300;
-      span{
+      span {
         font-weight: 700;
       }
     }
-    .buttons{
+    .buttons {
       display: flex;
-      .btn-learn-more{
+      .btn-learn-more {
         font-size: 14px;
         font-weight: 700;
         line-height: 16px;
@@ -36,10 +36,10 @@ $desktopMin:992px;
         border-radius: 32px;
         border-color: transparent;
       }
-      .btn-learn-more:hover{
+      .btn-learn-more:hover {
         opacity: 0.7;
       }
-      .btn-get-in-touch{
+      .btn-get-in-touch {
         font-size: 14px;
         font-weight: 700;
         line-height: 16px;
@@ -49,120 +49,118 @@ $desktopMin:992px;
         border-radius: 32px;
         border-color: white;
       }
-      .btn-get-in-touch:hover{
-        opacity:0.7 ;
+      .btn-get-in-touch:hover {
+        opacity: 0.7;
       }
     }
   }
 }
 
-
-@media (min-width: $desktopMin){
-  .titleBackground{
-    background-image: url('../assets/images/bg-title-large.png');
+@media (min-width: $desktopMin) {
+  .titleBackground {
+    background-image: url("../assets/images/bg-title-large.png");
     background-size: cover;
     background-repeat: no-repeat;
     min-width: 1440px;
     max-width: 100%;
     height: 800px;
 
-    .title{
+    .title {
       margin: 0 auto;
       width: 1440px;
       height: 800px;
 
-      .title-header{
-        margin: 0 160px ;
+      .title-header {
+        margin: 0 160px;
         padding-top: 32px;
         display: flex;
         flex-direction: row;
-        justify-content:space-between;
-        img{
+        justify-content: space-between;
+        img {
           display: block;
           height: 48px;
           width: 135px;
         }
-        .phone{
+        .phone {
           height: 24px;
           color: white;
         }
       }
-       
-      .main-title{
-        margin: 385px calc(50% - 928px/2) 0 calc(50% - 928px/2);
+
+      .main-title {
+        margin: 385px calc(50% - 928px / 2) 0 calc(50% - 928px / 2);
         min-width: $desktopMin;
         max-width: 100%;
         height: 168px;
         font-size: 48px;
         line-height: 56px;
       }
-      .buttons{
-        margin: 32px calc(50% - 928px/2) 87px calc(50% - 928px/2)  ;
+      .buttons {
+        margin: 32px calc(50% - 928px / 2) 87px calc(50% - 928px / 2);
         display: flex;
         flex-direction: row;
-        .btn-learn-more{
-          width: 256px; ;
+        .btn-learn-more {
+          width: 256px;
           height: 48px;
         }
-        .btn-get-in-touch{
-          width: 160px; ;
+        .btn-get-in-touch {
+          width: 160px;
           height: 48px;
           margin: 0 32px;
         }
       }
     }
   }
-  }
-  
+}
 
 @media (min-width: $tabletMin) and (max-width: $tabletMax) {
-  .titleBackground{
-    background-image: url('../assets/images/bg-title-medium.svg');
-    background-size:100%;
+  .titleBackground {
+    background-image: url("../assets/images/bg-title-medium.svg");
+    background-size: 100%;
     background-repeat: no-repeat;
 
     min-width: 768px;
     max-width: 100%;
     height: 1024px;
-    .title{
-      
+    .title {
       width: 768px;
       height: 1024px;
       margin: 0 auto;
-      .title-header{
-        margin: 0 160px ;
+      .title-header {
+        margin: 0 160px;
         padding-top: 32px;
         display: flex;
         flex-direction: row;
-        justify-content:center;
-        img{
+        justify-content: center;
+        img {
           display: block;
           height: 48px;
           width: 135px;
         }
-        .phone{
+        .phone {
           display: none;
         }
       }
-      .decoration-text{
+      .decoration-text {
         display: none;
       }
-      .main-title{
-        margin:584px 32px 0 32px;
+      .main-title {
+        margin: 584px 32px 0 32px;
         height: 168px;
         font-size: 48px;
         line-height: 56px;
-        br{
-          display:none;
+        br {
+          display: none;
         }
       }
-      .buttons{
-        margin: 16px 32px 16px 32px ;
+      .buttons {
+        margin: 16px 32px 16px 32px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        .btn-learn-more, .btn-get-in-touch{
-          width: 50%; ;
+        .btn-learn-more,
+        .btn-get-in-touch {
+          width: 50%;
           height: 48px;
           margin-top: 16px;
           font-size: 16px;
@@ -171,59 +169,57 @@ $desktopMin:992px;
       }
     }
   }
-    
-  }
-  
+}
 
-@media (min-width: $phoneMin) and (max-width: $phoneMax){
-  .titleBackground{
-    background-image: url('../assets/images/bg-title-small.svg');
-    background-size:100%;
+@media (min-width: $phoneMin) and (max-width: $phoneMax) {
+  .titleBackground {
+    background-image: url("../assets/images/bg-title-small.svg");
+    background-size: 100%;
     background-repeat: no-repeat;
     min-width: 360px;
     max-width: 100%;
     height: 640px;
-    .title{
+    .title {
       width: 360px;
       height: 640px;
       margin: 0 auto;
-      position:relative;
-      .title-header{
-        margin: 0 160px ;
+      position: relative;
+      .title-header {
+        margin: 0 160px;
         padding-top: 32px;
         display: flex;
         flex-direction: row;
-        justify-content:center;
-        img{
+        justify-content: center;
+        img {
           display: block;
           height: 48px;
           width: 135px;
         }
-        .phone{
+        .phone {
           display: none;
         }
-          
       }
-      .decoration-text{
+      .decoration-text {
         display: none;
       }
-      .main-title{
-        margin:193px 32px 0 32px;
+      .main-title {
+        margin: 193px 32px 0 32px;
         font-size: 32px;
         font-style: normal;
         font-weight: 300;
         line-height: 36px;
-        br{
-          display:none;
+        br {
+          display: none;
         }
       }
-      .buttons{
-        margin: 16px 32px 16px 32px ;
+      .buttons {
+        margin: 16px 32px 16px 32px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        .btn-learn-more, .btn-get-in-touch{
-          width: 100%; ;
+        .btn-learn-more,
+        .btn-get-in-touch {
+          width: 100%;
           height: 48px;
           margin-top: 16px;
           font-size: 16px;
@@ -232,6 +228,4 @@ $desktopMin:992px;
       }
     }
   }
-    
-  }
-  
+}

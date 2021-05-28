@@ -1,42 +1,41 @@
-$phoneMin:320px;
-$phoneMax:767.98px;
-$tabletMin:768px;
-$tabletMax:991.98px;
-$desktopMin:992px;
-$desktopMax:1920px;
+$phoneMin: 320px;
+$phoneMax: 767.98px;
+$tabletMin: 768px;
+$tabletMax: 991.98px;
+$desktopMin: 992px;
+$desktopMax: 1920px;
 
-.diagram-background{
+.diagram-background {
   background-color: rgba(247, 248, 250, 1);
-  .diagram{
-    .diagram-titles{
-      p{
-        font-weight:700;
+  .diagram {
+    .diagram-titles {
+      p {
+        font-weight: 700;
         color: rgba(12, 36, 44, 1);
       }
-      div{
+      div {
         border-left: 8px solid rgba(92, 199, 141, 1);
-        p{
-          font-weight:700;
+        p {
+          font-weight: 700;
           color: rgba(12, 36, 44, 1);
         }
       }
     }
-    .main-diagam{
-      .diagram-block{
-        
-        .methodth-name{
+    .main-diagam {
+      .diagram-block {
+        .methodth-name {
           font-size: 16px;
           font-weight: 700;
           line-height: 20px;
         }
-        .hours{
+        .hours {
           font-size: 16px;
           font-weight: 300;
           line-height: 24px;
         }
-        .rectangle{
+        .rectangle {
           margin-top: 12px;
-          height:8px ;
+          height: 8px;
           border-radius: 8px;
         }
       }
@@ -44,173 +43,164 @@ $desktopMax:1920px;
   }
 }
 
-.rectangle-heigh{
-  background:rgba(92, 199, 141, 1) ;
+.rectangle-heigh {
+  background: rgba(92, 199, 141, 1);
 }
-.rectangle-middle{
-  background:linear-gradient(270deg,rgba(171, 178, 188, 1) 2.74%,rgba(206, 211, 218, 1) 100%);
+.rectangle-middle {
+  background: linear-gradient(270deg, rgba(171, 178, 188, 1) 2.74%, rgba(206, 211, 218, 1) 100%);
 }
-.rectangle-low{
-  background:linear-gradient(270deg, rgba(137, 146, 159, 1) 2.74%,rgba(206, 211, 218, 1) 100%);
+.rectangle-low {
+  background: linear-gradient(270deg, rgba(137, 146, 159, 1) 2.74%, rgba(206, 211, 218, 1) 100%);
 }
 
-
-
-
-@media (min-width: $desktopMin){
-  .diagram{
+@media (min-width: $desktopMin) {
+  .diagram {
     width: 1440px;
     // height:640px ;
     padding: 160px 0 100px 0;
     margin: 0 auto;
-  
-    .diagram-titles{
-      p{
+
+    .diagram-titles {
+      p {
         margin-left: 223px;
         padding-left: 32px;
         font-size: 24px;
         line-height: 28px;
       }
-      div{
+      div {
         margin-left: 223px;
         border-left: 8px solid rgba(92, 199, 141, 1);
-        p{
+        p {
           margin: 0;
           padding-left: 24px;
-          font-size: 48px ;
+          font-size: 48px;
           line-height: 56px;
         }
       }
     }
-    .main-diagam{ 
+    .main-diagam {
       padding: 109px 160px 0 160px;
-      .diagram-block{
+      .diagram-block {
         margin-top: -30px;
-        .methodth-name{
+        .methodth-name {
           text-align: right;
         }
-        .hours{
+        .hours {
           text-align: right;
         }
       }
-      
-      
-  }
-  .main-diagam{
-    :first-child{
-      .diagram-block{
-        margin-top: 0;
-        .methodth-name{
-          text-align: left;
-        }
-        .hours{
-          text-align: left;
+    }
+    .main-diagam {
+      :first-child {
+        .diagram-block {
+          margin-top: 0;
+          .methodth-name {
+            text-align: left;
+          }
+          .hours {
+            text-align: left;
+          }
         }
       }
-      
     }
   }
+  .width-heigh {
+    width: 5.71%;
   }
-  .width-heigh{
-    width:5.71%
-  }
-  .width-middle{
+  .width-middle {
     width: 50%;
   }
-  .width-low{
+  .width-low {
     width: 100%;
   }
 }
 @media (min-width: $tabletMin) and (max-width: $tabletMax) {
-  .diagram{
-    width: 768px ;
-    height:720px ;
+  .diagram {
+    width: 768px;
+    height: 720px;
     margin: 0 auto;
-    .diagram-titles{
+    .diagram-titles {
       padding-top: 96px;
-      p{
+      p {
         padding-left: 32px;
-         font-size: 24px;
-         line-height: 28px;
+        font-size: 24px;
+        line-height: 28px;
       }
-      div{
+      div {
         border-left: 8px solid rgba(92, 199, 141, 1);
-        p{
+        p {
           width: 650px;
           margin-top: 36px;
           padding-left: 24px;
           padding-right: 32px;
-          font-size: 48px ;
+          font-size: 48px;
           line-height: 56px;
-          br{
+          br {
             display: none;
           }
         }
       }
     }
-   
   }
-    .main-diagam{
-      background-image: url('../assets/images/diagram-medium.svg');
-      background-size: 100%;
-      margin: 76px 32px 72px 32px;
-      height: 244px;
-      width: 704px;
+  .main-diagam {
+    background-image: url("../assets/images/diagram-medium.svg");
+    background-size: 100%;
+    margin: 76px 32px 72px 32px;
+    height: 244px;
+    width: 704px;
   }
-  .rectangle-heigh{
-    width:5.71%
+  .rectangle-heigh {
+    width: 5.71%;
   }
-  .rectangle-middle{
+  .rectangle-middle {
     width: 50%;
   }
-  .rectangle-low{
+  .rectangle-low {
     width: 100%;
   }
 }
-@media (min-width: $phoneMin) and (max-width: $phoneMax){
-  .diagram{
-    width: 360px ;
-    height:720px ;
+@media (min-width: $phoneMin) and (max-width: $phoneMax) {
+  .diagram {
+    width: 360px;
+    height: 720px;
     margin: 0 auto;
-    .diagram-titles{
+    .diagram-titles {
       padding-top: 96px;
-      p{
+      p {
         padding-left: 32px;
         font-size: 20px;
         line-height: 24px;
       }
-      div{
+      div {
         border-left: 8px solid rgba(92, 199, 141, 1);
-        p{
+        p {
           width: 296px;
           margin-top: 36px;
           padding-left: 24px;
           padding-right: 32px;
           font-size: 32px;
           line-height: 36px;
-          br{
+          br {
             display: none;
           }
         }
       }
     }
   }
-    .main-diagam{
-      background-image: url('../assets/images/diagram-small.svg');
-      background-size: 100%;
-      margin: 64px 32px 72px 32px;
-      height: 244px;
-      width: 296px;
+  .main-diagam {
+    background-image: url("../assets/images/diagram-small.svg");
+    background-size: 100%;
+    margin: 64px 32px 72px 32px;
+    height: 244px;
+    width: 296px;
   }
-  .rectangle-heigh{
-    width:5.71%
+  .rectangle-heigh {
+    width: 5.71%;
   }
-  .rectangle-middle{
+  .rectangle-middle {
     width: 50%;
   }
-  .rectangle-low{
+  .rectangle-low {
     width: 100%;
   }
 }
-
-  

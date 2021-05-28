@@ -1,137 +1,124 @@
-$phoneMin:320px;
-$phoneMax:767.98px;
-$tabletMin:768px;
-$tabletMax:991.98px;
-$desktopMin:992px;
-$desktopMax:1920px;
+$phoneMin: 320px;
+$phoneMax: 767.98px;
+$tabletMin: 768px;
+$tabletMax: 991.98px;
+$desktopMin: 992px;
+$desktopMax: 1920px;
 
-
-.universal-platform-title{
-  p{
+.universal-platform-title {
+  p {
     display: inline-flex;
     text-align: center;
   }
 }
 
-  @media (min-width: $desktopMin)  {
-    .universal-platform-background{
-      background-image: url('../assets/images/bg-universal-platform-large.png');
-      background-size: 100%;
-      background-repeat: no-repeat;
-      min-width: 1440px;
-      max-width: 100%;
-      height: 960px;
-
+@media (min-width: $desktopMin) {
+  .universal-platform-background {
+    background-image: url("../assets/images/bg-universal-platform-large.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-width: 1440px;
+    max-width: 100%;
+    height: 960px;
+  }
+  .universal-platform {
+    width: 1440px;
+    height: 960px;
+    margin: 0 auto;
+    .universal-platform-title {
+      padding-top: 142.25px;
+      margin-bottom: 100.75px;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 36px;
+      color: white;
+      text-align: center;
     }
-    .universal-platform{
-      width: 1440px;
-      height: 960px;
+    .universal-platform-circle {
+      background-image: url("../assets/images/round-elem-large.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 1083px;
+      height: 587px;
       margin: 0 auto;
-      .universal-platform-title{
-        padding-top: 142.25px;
-        margin-bottom: 100.75px;
-          font-size: 32px;
-          font-weight:700;
-          line-height: 36px;
-          color: white;
-          text-align: center;
-
-        }
-      .universal-platform-circle{
-          background-image: url('../assets/images/round-elem-large.svg');
-          background-size: contain;
-          background-repeat: no-repeat;
-          width: 1083px;
-          height: 587px;
-          margin: 0 auto;
-        }
-   
     }
   }
-  @media (min-width: $tabletMin) and (max-width: $tabletMax) {
-    .universal-platform-background{
-      background-image: url('../assets/images/bg-universal-platform-medium.png');
-      background-size: 100%;
-      background-repeat: no-repeat;
-      min-width: 768px;
-      max-width: 100%;
-      height: 1480px;
-
+}
+@media (min-width: $tabletMin) and (max-width: $tabletMax) {
+  .universal-platform-background {
+    background-image: url("../assets/images/bg-universal-platform-medium.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-width: 768px;
+    max-width: 100%;
+    height: 1480px;
+  }
+  .universal-platform {
+    width: 768px;
+    height: 1480px;
+    margin: 0 auto;
+    .universal-platform-title {
+      padding-top: 96px;
+      margin-bottom: 47px;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 36px;
+      color: white;
+      text-align: center;
     }
-    .universal-platform{
-      width: 768px;
-      height: 1480px;
+    .universal-platform-circle {
+      background-image: url("../assets/images/round-elem-medium.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 673px;
+      height: 1250px;
       margin: 0 auto;
-      .universal-platform-title{
-        padding-top: 96px;
-        margin-bottom: 47px;
-          font-size: 32px;
-          font-weight:700;
-          line-height: 36px;
-          color: white;
-          text-align: center;
-
-        }
-      .universal-platform-circle{
-          background-image: url('../assets/images/round-elem-medium.svg');
-          background-size: contain;
-          background-repeat: no-repeat;
-          width: 673px;
-          height: 1250px;
-          margin: 0 auto;
-        }
-   
     }
   }
-  @media (min-width: $phoneMin) and (max-width: $phoneMax){
-    .universal-platform-background{
-      background-image: url('../assets/images/bg-universal-platform-small.png');
-      background-size: 100%;
-      background-repeat: no-repeat;
-      min-width: 360px;
-      max-width: 100%;
-      height: 1545px;
-      overflow: hidden;
-
-    }
-    .universal-platform{
-      // width: 360px;
-      height: 1545px;
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-       position: relative;
-      .universal-platform-title{
-        padding-top: 96px;
-        margin-bottom: 64px;
-          font-size: 24px;
-          font-weight:700;
-          line-height: 28px;
-          color: white;
-          p{
-            display: block;
-            text-align: center;
-          }
-        }
-      .universal-platform-circle{
-          background-image: url('../assets/images/round-elem-small.svg');
-          background-size: cover;
-          background-repeat: no-repeat;
-          width: 673px;
-          height: 1190px;
-          margin: 0 auto;
-        }
-   
-    }
-    @media (min-width: $phoneMin) and (max-width: 672.98px){
-      .universal-platform-circle{
-        position: absolute;
-        top:216px;
-        left: calc(100% - 673px);
-        right: calc(100% - 673px);;
+}
+@media (min-width: $phoneMin) and (max-width: $phoneMax) {
+  .universal-platform-background {
+    background-image: url("../assets/images/bg-universal-platform-small.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-width: 360px;
+    max-width: 100%;
+    height: 1545px;
+    overflow: hidden;
+  }
+  .universal-platform {
+    height: 1545px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    .universal-platform-title {
+      padding-top: 96px;
+      margin-bottom: 64px;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 28px;
+      color: white;
+      p {
+        display: block;
+        text-align: center;
       }
     }
+    .universal-platform-circle {
+      background-image: url("../assets/images/round-elem-small.svg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 673px;
+      height: 1190px;
+      margin: 0 auto;
+    }
   }
- 
- 
- 
+  @media (min-width: $phoneMin) and (max-width: 672.98px) {
+    .universal-platform-circle {
+      position: absolute;
+      top: 216px;
+      left: calc(100% - 673px);
+      right: calc(100% - 673px);
+    }
+  }
+}

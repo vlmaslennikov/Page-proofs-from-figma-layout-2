@@ -64,14 +64,14 @@
           height: 24px;
           color: white; }
       .titleBackground .title .main-title {
-        margin: 385px calc(50% - 928px/2) 0 calc(50% - 928px/2);
+        margin: 385px calc(50% - 928px / 2) 0 calc(50% - 928px / 2);
         min-width: 992px;
         max-width: 100%;
         height: 168px;
         font-size: 48px;
         line-height: 56px; }
       .titleBackground .title .buttons {
-        margin: 32px calc(50% - 928px/2) 87px calc(50% - 928px/2);
+        margin: 32px calc(50% - 928px / 2) 87px calc(50% - 928px / 2);
         display: flex;
         flex-direction: row; }
         .titleBackground .title .buttons .btn-learn-more {
@@ -120,7 +120,8 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-start; }
-        .titleBackground .title .buttons .btn-learn-more, .titleBackground .title .buttons .btn-get-in-touch {
+        .titleBackground .title .buttons .btn-learn-more,
+        .titleBackground .title .buttons .btn-get-in-touch {
           width: 50%;
           height: 48px;
           margin-top: 16px;
@@ -167,7 +168,8 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-start; }
-        .titleBackground .title .buttons .btn-learn-more, .titleBackground .title .buttons .btn-get-in-touch {
+        .titleBackground .title .buttons .btn-learn-more,
+        .titleBackground .title .buttons .btn-get-in-touch {
           width: 100%;
           height: 48px;
           margin-top: 16px;

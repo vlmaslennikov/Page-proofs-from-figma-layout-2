@@ -1,236 +1,230 @@
-$phoneMin:320px;
-$phoneMax:767.98px;
-$tabletMin:768px;
-$tabletMax:991.98px;
-$desktopMin:992px;
-$desktopMax:1920px;
+$phoneMin: 320px;
+$phoneMax: 767.98px;
+$tabletMin: 768px;
+$tabletMax: 991.98px;
+$desktopMin: 992px;
+$desktopMax: 1920px;
 
-.current-standart-background{
-  .grey-line{
+.current-standart-background {
+  .grey-line {
     position: absolute;
     border-right: 2px solid rgba(12, 36, 44, 1);
     opacity: 0.2;
   }
-  .current-standart{
-    .big-container{
-      
-      .titles{
+  .current-standart {
+    .big-container {
+      .titles {
         z-index: 1;
-        .small-title{
-          font-weight:700;
+        .small-title {
+          font-weight: 700;
         }
-        div{
+        div {
           border-left: 8px solid rgba(206, 211, 218, 1);
-          .big-title{
+          .big-title {
             font-style: normal;
             font-weight: bold;
             color: rgba(12, 36, 44, 1);
-            span{
+            span {
               color: rgba(248, 99, 78, 1);
             }
           }
         }
       }
-      .main-content{
-          .card{
-              :nth-child(2){
-                font-weight:700;
-                color: rgba(12, 36, 44, 1);
-              }
-              :nth-child(3){
-                padding-top: 16px;
-                font-weight:400;
-                color: rgba(12, 36, 44, 1);
-              }
+      .main-content {
+        .card {
+          :nth-child(2) {
+            font-weight: 700;
+            color: rgba(12, 36, 44, 1);
           }
+          :nth-child(3) {
+            padding-top: 16px;
+            font-weight: 400;
+            color: rgba(12, 36, 44, 1);
+          }
+        }
       }
     }
   }
 }
-  .circle{
+.circle {
   width: 32px;
   height: 32px;
   background: white;
   border-radius: 50%;
   position: relative;
   z-index: 2;
-  }
-.dot{
+}
+.dot {
   background: rgba(248, 99, 78, 1);
   width: 8px;
   height: 8px;
   border-radius: 50%;
   position: absolute;
   left: 12px;
-  top:12px;
+  top: 12px;
   z-index: 2;
-
 }
 
 @media (min-width: $desktopMin) {
-  .current-standart-background{
-    background-image: url('../assets/images/bg-current-standart-large.png');
+  .current-standart-background {
+    background-image: url("../assets/images/bg-current-standart-large.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    min-width:1440px;
+    min-width: 1440px;
     max-width: 100%;
     height: 1942px;
-    
-    .current-standart{
+
+    .current-standart {
       width: 1440px;
       height: 1942px;
       margin: 0 auto;
-      .big-container{
+      .big-container {
         padding: 96px 224px 0 224px;
-        .titles{
-           width: 100%;
-           padding-bottom: 158px;
-          .small-title{
+        .titles {
+          width: 100%;
+          padding-bottom: 158px;
+          .small-title {
             padding: 0 0 8px 32px;
             font-size: 32px;
             line-height: 36px;
           }
-          div{
+          div {
             padding-top: 8px;
             border-left: 8px solid rgba(206, 211, 218, 1);
-            .big-title{
+            .big-title {
               padding-left: 24px;
               font-size: 48px;
               line-height: 56px;
             }
           }
         }
-        .main-content{
+        .main-content {
           width: 100%;
           display: flex;
-            flex-direction: column;
-            align-items: flex-start;
+          flex-direction: column;
+          align-items: flex-start;
 
-            .card{
-              .circle{
-                margin-left: 481px;
-                margin-bottom: -32px;
-              }
-              padding-top: 114px;
-              padding-right: 25px;
-              width: 352px;
-              height: 270px;
-              :nth-child(2){
-                font-size: 32px;
-                line-height: 36px;
-              }
-              :nth-child(3){
-                font-size:24px ;
-                line-height: 32px;
-              }
-              &:nth-child(odd){
-                .circle{
-                  margin-left: -134px;
-                }
-                align-self: flex-end;
-
-             }
+          .card {
+            .circle {
+              margin-left: 481px;
+              margin-bottom: -32px;
             }
+            padding-top: 114px;
+            padding-right: 25px;
+            width: 352px;
+            height: 270px;
+            :nth-child(2) {
+              font-size: 32px;
+              line-height: 36px;
+            }
+            :nth-child(3) {
+              font-size: 24px;
+              line-height: 32px;
+            }
+            &:nth-child(odd) {
+              .circle {
+                margin-left: -134px;
+              }
+              align-self: flex-end;
+            }
+          }
         }
       }
     }
   }
-  .grey-line{
+  .grey-line {
     height: 1942px;
     min-width: 720px;
   }
-  
-  }
+}
 
-
-@media  (min-width: $tabletMin) and (max-width: $tabletMax) {
-  .current-standart-background{
-    background-image: url('../assets/images/bg-current-standart-medium.png');
+@media (min-width: $tabletMin) and (max-width: $tabletMax) {
+  .current-standart-background {
+    background-image: url("../assets/images/bg-current-standart-medium.png");
     background-size: cover;
     background-repeat: no-repeat;
     min-width: 768px;
     max-width: 100%;
     height: 2000px;
-    
-    .current-standart{
+
+    .current-standart {
       width: 768px;
       height: 2000px;
       margin: 0 auto;
-      div{
-        .titles{
-          padding-top: 96px ;
+      div {
+        .titles {
+          padding-top: 96px;
           padding-right: 16px;
-          .small-title{
+          .small-title {
             padding: 0 0 8px 32px;
             font-size: 32px;
             line-height: 36px;
           }
-          div{
+          div {
             padding-top: 8px;
             border-left: 8px solid rgba(206, 211, 218, 1);
-            .big-title{
+            .big-title {
               padding-left: 24px;
               font-size: 48px;
               line-height: 56px;
             }
           }
         }
-        .main-content{
+        .main-content {
           padding-right: 16px;
-          margin-top:120px;
+          margin-top: 120px;
           padding-left: 400px;
-            .card{
-              .circle{
-                margin-left: -207px;
-                margin-bottom: -32px;
-              }
-              width: 336px;
-              height: 384px;
-              :nth-child(2){
-                font-size: 32px;
-                line-height: 36px;
-              }
-              :nth-child(3){
-                font-size:24px ;
-                line-height: 32px;
-              }
+          .card {
+            .circle {
+              margin-left: -207px;
+              margin-bottom: -32px;
             }
+            width: 336px;
+            height: 384px;
+            :nth-child(2) {
+              font-size: 32px;
+              line-height: 36px;
+            }
+            :nth-child(3) {
+              font-size: 24px;
+              line-height: 32px;
+            }
+          }
         }
       }
     }
   }
-  .grey-line{
+  .grey-line {
     height: 2000px;
     min-width: 208px;
-  }  
   }
-  
+}
 
-@media (min-width: $phoneMin) and (max-width: $phoneMax){
-  .current-standart-background{
-    background-image: url('../assets/images/bg-current-standart-small.png');
+@media (min-width: $phoneMin) and (max-width: $phoneMax) {
+  .current-standart-background {
+    background-image: url("../assets/images/bg-current-standart-small.png");
     background-size: cover;
     background-repeat: no-repeat;
     min-width: 360px;
     max-width: 100%;
     height: 1440px;
-    .current-standart{
+    .current-standart {
       width: 360px;
       height: 1440px;
       margin: 0 auto;
-      div{
-        .titles{
-          padding-top: 96px ;
+      div {
+        .titles {
+          padding-top: 96px;
           padding-right: 16px;
-          .small-title{
+          .small-title {
             padding: 0 0 8px 32px;
             font-size: 24px;
             line-height: 28px;
           }
-          div{
+          div {
             padding-top: 8px;
             border-left: 8px solid rgba(206, 211, 218, 1);
-            .big-title{
+            .big-title {
               width: 300px;
               padding-left: 24px;
               font-size: 32px;
@@ -238,37 +232,36 @@ $desktopMax:1920px;
             }
           }
         }
-        .main-content{
+        .main-content {
           padding-right: 16px;
-          margin-top:124px;
+          margin-top: 124px;
           padding-left: 87px;
-            .card{
-              .circle{
-                margin-left: -60px;
-                margin-bottom: -27px;
-              }
-              width: 248px;
-              height: 264px;
-              :fnth-child(2){
-                font-size: 24px;
-                font-weight:700;
-                line-height: 28px;
-                color: rgba(12, 36, 44, 1);
-              }
-              :nth-child(3){
-                font-size:16px ;
-                font-weight:400;
-                line-height: 24px;
-                color: rgba(12, 36, 44, 1);
-              }
+          .card {
+            .circle {
+              margin-left: -60px;
+              margin-bottom: -27px;
             }
+            width: 248px;
+            height: 264px;
+            :fnth-child(2) {
+              font-size: 24px;
+              font-weight: 700;
+              line-height: 28px;
+              color: rgba(12, 36, 44, 1);
+            }
+            :nth-child(3) {
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 24px;
+              color: rgba(12, 36, 44, 1);
+            }
+          }
         }
       }
     }
   }
-  .grey-line{
+  .grey-line {
     height: 1440px;
     min-width: 28px;
-  } 
   }
-  
+}
