@@ -43,20 +43,19 @@ $desktopMax: 1920px;
   }
 }
 
-.rectangle-heigh {
+.rectangle-upper {
   background: rgba(92, 199, 141, 1);
 }
 .rectangle-middle {
   background: linear-gradient(270deg, rgba(171, 178, 188, 1) 2.74%, rgba(206, 211, 218, 1) 100%);
 }
-.rectangle-low {
+.rectangle-lower {
   background: linear-gradient(270deg, rgba(137, 146, 159, 1) 2.74%, rgba(206, 211, 218, 1) 100%);
 }
 
 @media (min-width: $desktopMin) {
   .diagram {
     width: 1440px;
-    // height:640px ;
     padding: 160px 0 100px 0;
     margin: 0 auto;
 
@@ -104,13 +103,13 @@ $desktopMax: 1920px;
       }
     }
   }
-  .width-heigh {
+  .width-upper {
     width: 5.71%;
   }
   .width-middle {
     width: 50%;
   }
-  .width-low {
+  .width-lower {
     width: 100%;
   }
 }
@@ -149,13 +148,13 @@ $desktopMax: 1920px;
     height: 244px;
     width: 704px;
   }
-  .rectangle-heigh {
+  .rectangle-upper {
     width: 5.71%;
   }
   .rectangle-middle {
     width: 50%;
   }
-  .rectangle-low {
+  .rectangle-lower {
     width: 100%;
   }
 }
@@ -194,13 +193,13 @@ $desktopMax: 1920px;
     height: 244px;
     width: 296px;
   }
-  .rectangle-heigh {
+  .rectangle-upper {
     width: 5.71%;
   }
   .rectangle-middle {
     width: 50%;
   }
-  .rectangle-low {
+  .rectangle-lower {
     width: 100%;
   }
 }

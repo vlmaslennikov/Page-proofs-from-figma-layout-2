@@ -57,7 +57,7 @@ $desktopMin: 992px;
 }
 
 @media (min-width: $desktopMin) {
-  .titleBackground {
+  .title-background {
     background-image: url("../assets/images/bg-title-large.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -114,7 +114,7 @@ $desktopMin: 992px;
 }
 
 @media (min-width: $tabletMin) and (max-width: $tabletMax) {
-  .titleBackground {
+  .title-background {
     background-image: url("../assets/images/bg-title-medium.svg");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -172,7 +172,7 @@ $desktopMin: 992px;
 }
 
 @media (min-width: $phoneMin) and (max-width: $phoneMax) {
-  .titleBackground {
+  .title-background {
     background-image: url("../assets/images/bg-title-small.svg");
     background-size: 100%;
     background-repeat: no-repeat;

@@ -21,13 +21,13 @@
     height: 8px;
     border-radius: 8px; }
 
-.rectangle-heigh {
+.rectangle-upper {
   background: #5cc78d; }
 
 .rectangle-middle {
   background: linear-gradient(270deg, #abb2bc 2.74%, #ced3da 100%); }
 
-.rectangle-low {
+.rectangle-lower {
   background: linear-gradient(270deg, #89929f 2.74%, #ced3da 100%); }
 
 @media (min-width: 992px) {
@@ -62,11 +62,11 @@
         text-align: left; }
       .diagram .main-diagam :first-child .diagram-block .hours {
         text-align: left; }
-  .width-heigh {
+  .width-upper {
     width: 5.71%; }
   .width-middle {
     width: 50%; }
-  .width-low {
+  .width-lower {
     width: 100%; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -97,11 +97,11 @@
     margin: 76px 32px 72px 32px;
     height: 244px;
     width: 704px; }
-  .rectangle-heigh {
+  .rectangle-upper {
     width: 5.71%; }
   .rectangle-middle {
     width: 50%; }
-  .rectangle-low {
+  .rectangle-lower {
     width: 100%; } }
 
 @media (min-width: 320px) and (max-width: 767.98px) {
@@ -132,9 +132,9 @@
     margin: 64px 32px 72px 32px;
     height: 244px;
     width: 296px; }
-  .rectangle-heigh {
+  .rectangle-upper {
     width: 5.71%; }
   .rectangle-middle {
     width: 50%; }
-  .rectangle-low {
+  .rectangle-lower {
     width: 100%; } }
