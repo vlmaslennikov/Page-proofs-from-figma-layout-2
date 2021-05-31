@@ -73,14 +73,17 @@ body {
           width: 135px; }
         .title-container .title .title-header .phone {
           height: 24px;
-          color: white; }
+          color: white;
+          text-decoration: none; }
       .title-container .title .main-title {
         margin: 385px 256px 0 256px;
-        min-width: 992px;
-        max-width: 100%;
+        max-width: 940px;
         height: 168px;
-        font-size: 48px;
         line-height: 56px; }
+        .title-container .title .main-title h1 {
+          font-size: 48px; }
+        .title-container .title .main-title p {
+          font-size: 48px; }
       .title-container .title .buttons {
         margin: 32px 256px 87px 256px;
         display: flex;
@@ -122,10 +125,11 @@ body {
       .title-container .title .main-title {
         margin: 584px 32px 0 32px;
         height: 168px;
-        font-size: 48px;
         line-height: 56px; }
-        .title-container .title .main-title br {
-          display: none; }
+        .title-container .title .main-title h1 {
+          font-size: 48px; }
+        .title-container .title .main-title p {
+          font-size: 48px; }
       .title-container .title .buttons {
         margin: 16px 32px 16px 32px;
         display: flex;
@@ -168,12 +172,13 @@ body {
         display: none; }
       .title-container .title .main-title {
         margin: 193px 32px 0 32px;
-        font-size: 32px;
         font-style: normal;
         font-weight: 300;
         line-height: 36px; }
-        .title-container .title .main-title br {
-          display: none; }
+        .title-container .title .main-title h1 {
+          font-size: 32px; }
+        .title-container .title .main-title p {
+          font-size: 32px; }
       .title-container .title .buttons {
         margin: 16px 32px 16px 32px;
         display: flex;
@@ -455,13 +460,13 @@ body {
 
 .diagram-container {
   background-color: #f7f8fa; }
-  .diagram-container .diagram .diagram-titles p {
+  .diagram-container .diagram .diagram-titles h3 {
     font-weight: 700;
     color: #0c242c; }
   .diagram-container .diagram .diagram-titles div {
     margin-top: 16px;
     border-left: 8px solid #5cc78d; }
-    .diagram-container .diagram .diagram-titles div p {
+    .diagram-container .diagram .diagram-titles div h1 {
       font-weight: 700;
       color: #0c242c; }
   .diagram-container .diagram .main-diagram .diagram-block .method-name {
@@ -491,7 +496,7 @@ body {
     width: 1440px;
     padding: 160px 0 100px 0;
     margin: 0 auto; }
-    .diagram .diagram-titles p {
+    .diagram .diagram-titles h3 {
       margin-left: 223px;
       padding-left: 32px;
       font-size: 24px;
@@ -499,7 +504,8 @@ body {
     .diagram .diagram-titles div {
       margin-left: 223px;
       border-left: 8px solid #5cc78d; }
-      .diagram .diagram-titles div p {
+      .diagram .diagram-titles div h1 {
+        max-width: 1060px;
         margin: 0;
         padding-left: 24px;
         font-size: 48px;
@@ -532,21 +538,19 @@ body {
     margin: 0 auto; }
     .diagram .diagram-titles {
       padding-top: 96px; }
-      .diagram .diagram-titles p {
+      .diagram .diagram-titles h3 {
         padding-left: 32px;
         font-size: 24px;
         line-height: 28px; }
       .diagram .diagram-titles div {
         border-left: 8px solid #5cc78d; }
-        .diagram .diagram-titles div p {
+        .diagram .diagram-titles div h1 {
           width: 650px;
           margin-top: 36px;
           padding-left: 24px;
           padding-right: 32px;
           font-size: 48px;
           line-height: 56px; }
-          .diagram .diagram-titles div p br {
-            display: none; }
   .main-diagram {
     background-image: url("../assets/images/diagram-medium.svg");
     background-size: 100%;
@@ -567,21 +571,20 @@ body {
     margin: 0 auto; }
     .diagram .diagram-titles {
       padding-top: 96px; }
-      .diagram .diagram-titles p {
+      .diagram .diagram-titles h3 {
         padding-left: 32px;
         font-size: 20px;
         line-height: 24px; }
       .diagram .diagram-titles div {
         border-left: 8px solid #5cc78d; }
-        .diagram .diagram-titles div p {
+        .diagram .diagram-titles div h1 {
           width: 296px;
           margin-top: 36px;
           padding-left: 24px;
           padding-right: 32px;
           font-size: 32px;
-          line-height: 36px; }
-          .diagram .diagram-titles div p br {
-            display: none; }
+          line-height: 36px;
+          display: inline-flex; }
   .main-diagram {
     background-image: url("../assets/images/diagram-small.svg");
     background-size: 100%;
@@ -595,9 +598,10 @@ body {
   .rectangle-lower {
     width: 100%; } }
 
-.universal-platform-title p {
+.universal-platform-title h2 {
   display: inline-flex;
-  text-align: center; }
+  text-align: center;
+  font-weight: 700; }
 
 @media (min-width: 992px) {
   .universal-platform-container {
@@ -614,11 +618,11 @@ body {
     .universal-platform .universal-platform-title {
       padding-top: 142.25px;
       margin-bottom: 100.75px;
-      font-size: 32px;
-      font-weight: 700;
-      line-height: 36px;
       color: white;
       text-align: center; }
+      .universal-platform .universal-platform-title h2 {
+        font-size: 32px;
+        line-height: 36px; }
     .universal-platform .universal-platform-circle {
       background-image: url("../assets/images/round-elem-large.svg");
       background-size: contain;
@@ -642,11 +646,11 @@ body {
     .universal-platform .universal-platform-title {
       padding-top: 96px;
       margin-bottom: 47px;
-      font-size: 32px;
-      font-weight: 700;
-      line-height: 36px;
       color: white;
       text-align: center; }
+      .universal-platform .universal-platform-title h2 {
+        font-size: 32px;
+        line-height: 36px; }
     .universal-platform .universal-platform-circle {
       background-image: url("../assets/images/round-elem-medium.svg");
       background-size: contain;
@@ -673,11 +677,10 @@ body {
     .universal-platform .universal-platform-title {
       padding-top: 96px;
       margin-bottom: 64px;
-      font-size: 24px;
-      font-weight: 700;
-      line-height: 28px;
       color: white; }
-      .universal-platform .universal-platform-title p {
+      .universal-platform .universal-platform-title h2 {
+        font-size: 24px;
+        line-height: 28px;
         display: block;
         text-align: center; }
     .universal-platform .universal-platform-circle {
@@ -703,7 +706,7 @@ body {
     .disruptive-innovations-container .disruptive-innovations .first-block .disruptive-innovations-title {
       border-left: 8px solid #5cc78d;
       color: #0c242c; }
-      .disruptive-innovations-container .disruptive-innovations .first-block .disruptive-innovations-title p {
+      .disruptive-innovations-container .disruptive-innovations .first-block .disruptive-innovations-title h1 {
         margin-left: 24px;
         font-size: 48px;
         font-weight: 700;
@@ -736,7 +739,7 @@ body {
           padding-top: 148px;
           border-left: 8px solid #5cc78d;
           color: #0c242c; }
-          .disruptive-innovations .disruptive-innovations-main .first-block .disruptive-innovations-title p {
+          .disruptive-innovations .disruptive-innovations-main .first-block .disruptive-innovations-title h1 {
             margin-left: 24px; }
         .disruptive-innovations .disruptive-innovations-main .first-block .disruptive-innovations-text {
           margin-left: 32px;
@@ -758,12 +761,10 @@ body {
         padding-top: 48px;
         border-left: 8px solid #5cc78d;
         color: #0c242c; }
-        .disruptive-innovations div .disruptive-innovations-title p {
+        .disruptive-innovations div .disruptive-innovations-title h1 {
           margin-left: 24px;
           font-size: 48px;
           line-height: 56px; }
-        .disruptive-innovations div .disruptive-innovations-title br {
-          display: none; }
       .disruptive-innovations div .disruptive-innovations-text {
         width: 650px;
         margin-left: 32px;
@@ -789,10 +790,8 @@ body {
         color: #0c242c;
         font-size: 32px;
         line-height: 36px; }
-        .disruptive-innovations div .disruptive-innovations-title p {
+        .disruptive-innovations div .disruptive-innovations-title h1 {
           margin-left: 24px; }
-        .disruptive-innovations div .disruptive-innovations-title br {
-          display: none; }
       .disruptive-innovations div .disruptive-innovations-text {
         width: 296px;
         margin-left: 32px;
@@ -836,15 +835,26 @@ body {
     padding-top: 8px; }
     .team-container .team .team-cards .team-card .author-link img {
       width: 24px;
-      height: 24px; }
+      height: 24px;
+      margin-right: 16px; }
     .team-container .team .team-cards .team-card .author-link a {
-      background-image: url("../assets/images/social-ref.svg");
-      background-repeat: no-repeat;
-      background-size: 30%;
       margin-top: 6px;
-      margin-left: 16px;
-      width: 216px;
-      height: 20px; }
+      text-decoration: none; }
+      .team-container .team .team-cards .team-card .author-link a p {
+        display: inline-flex;
+        color: #4381bb;
+        font-size: 16px;
+        line-height: 20px;
+        white-space: pre; }
+      .team-container .team .team-cards .team-card .author-link a img {
+        width: 14px;
+        height: 24px;
+        margin: -5px 0 -5px -18px;
+        white-space: normal; }
+      .team-container .team .team-cards .team-card .author-link a hr {
+        width: 100%;
+        border: 0.75px solid #4381bb;
+        margin-top: -3px; }
 
 @media (min-width: 992px) {
   .team {
@@ -979,9 +989,11 @@ body {
   .footer-container .footer .contacts div {
     color: #89929f; }
     .footer-container .footer .contacts div .phone {
-      color: #89929f; }
+      color: #89929f;
+      text-decoration: none; }
     .footer-container .footer .contacts div .email {
-      color: #89929f; }
+      color: #89929f;
+      text-decoration: none; }
   .footer-container .footer .copyright {
     font-weight: 400;
     text-align: center;

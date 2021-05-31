@@ -38,15 +38,33 @@
           img {
             width: 24px;
             height: 24px;
+            margin-right: 16px;
           }
           a {
-            background-image: url("../assets/images/social-ref.svg");
-            background-repeat: no-repeat;
-            background-size: 30%;
             margin-top: 6px;
-            margin-left: 16px;
-            width: 216px;
-            height: 20px;
+            text-decoration: none;
+           
+            p{
+              display: inline-flex;
+              color: rgba(67, 129, 187, 1);
+              font-size: 16px;
+              line-height: 20px;
+              white-space: pre;
+            }
+            img{
+              width: 14px;
+              height: 24px;
+              margin: -5px 0 -5px -18px;
+              
+              white-space: normal;
+
+            }
+            hr{
+              width: 100%;
+              border: 0.75px solid rgba(67, 129, 187, 1);
+              margin-top: -3px;
+            }
+
           }
         }
       }

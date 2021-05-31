@@ -1,9 +1,10 @@
 @import '_variables';
 
 .universal-platform-title {
-  p {
+  h2 {
     display: inline-flex;
     text-align: center;
+    font-weight: 700;
   }
 }
 
@@ -23,9 +24,10 @@
     .universal-platform-title {
       padding-top: 142.25px;
       margin-bottom: 100.75px;
-      font-size: 32px;
-      font-weight: 700;
-      line-height: 36px;
+      h2{
+        font-size: 32px;
+        line-height: 36px;
+      }
       color: white;
       text-align: center;
     }
@@ -55,9 +57,10 @@
     .universal-platform-title {
       padding-top: 96px;
       margin-bottom: 47px;
-      font-size: 32px;
-      font-weight: 700;
-      line-height: 36px;
+      h2{
+        font-size: 32px;
+        line-height: 36px;
+      }
       color: white;
       text-align: center;
     }
@@ -91,11 +94,10 @@
     .universal-platform-title {
       padding-top: 96px;
       margin-bottom: 64px;
-      font-size: 24px;
-      font-weight: 700;
-      line-height: 28px;
       color: white;
-      p {
+      h2{
+        font-size: 24px;
+        line-height: 28px;
         display: block;
         text-align: center;
       }

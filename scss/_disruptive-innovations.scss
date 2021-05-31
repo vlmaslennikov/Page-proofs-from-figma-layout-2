@@ -9,7 +9,7 @@
       .disruptive-innovations-title{
         border-left: 8px solid rgba(92, 199, 141, 1);
         color: rgba(12, 36, 44, 1);
-        p {
+        h1 {
           margin-left: 24px;
           font-size: 48px;
           font-weight: 700;
@@ -54,7 +54,7 @@
           padding-top: 148px;
           border-left: 8px solid rgba(92, 199, 141, 1);
           color: rgba(12, 36, 44, 1);
-          p {
+          h1 {
             margin-left: 24px;
           }
         }
@@ -84,14 +84,12 @@
         padding-top: 48px;
         border-left: 8px solid rgba(92, 199, 141, 1);
         color: rgba(12, 36, 44, 1);
-        p {
+        h1 {
           margin-left: 24px;
           font-size: 48px;
           line-height: 56px;
         }
-        br {
-          display: none;
-        }
+        
       }
       .disruptive-innovations-text {
         width: 650px;
@@ -124,12 +122,10 @@
         color: rgba(12, 36, 44, 1);
         font-size: 32px;
         line-height: 36px;
-        p {
+        h1 {
           margin-left: 24px;
         }
-        br {
-          display: none;
-        }
+        
       }
       .disruptive-innovations-text {
         width: 296px;
