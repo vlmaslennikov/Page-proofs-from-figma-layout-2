@@ -75,14 +75,14 @@ body {
           height: 24px;
           color: white; }
       .title-container .title .main-title {
-        margin: 385px calc(50% - 928px / 2) 0 calc(50% - 928px / 2);
+        margin: 385px 256px 0 256px;
         min-width: 992px;
         max-width: 100%;
         height: 168px;
         font-size: 48px;
         line-height: 56px; }
       .title-container .title .buttons {
-        margin: 32px calc(50% - 928px / 2) 87px calc(50% - 928px / 2);
+        margin: 32px 256px 87px 256px;
         display: flex;
         flex-direction: row; }
         .title-container .title .buttons .btn-learn-more {
@@ -439,7 +439,7 @@ body {
           .current-standart-container .current-standart div .main-content .card .circle {
             margin-left: -75px;
             margin-bottom: -27px; }
-          .current-standart-container .current-standart div .main-content .card :fnth-child(2) {
+          .current-standart-container .current-standart div .main-content .card :nth-child(2) {
             font-size: 24px;
             font-weight: 700;
             line-height: 28px;
@@ -464,7 +464,7 @@ body {
     .diagram-container .diagram .diagram-titles div p {
       font-weight: 700;
       color: #0c242c; }
-  .diagram-container .diagram .main-diagram .diagram-block .methodth-name {
+  .diagram-container .diagram .main-diagram .diagram-block .method-name {
     font-size: 16px;
     font-weight: 700;
     line-height: 20px; }
@@ -508,13 +508,13 @@ body {
       padding: 109px 160px 0 160px; }
       .diagram .main-diagram .diagram-block {
         margin-top: -30px; }
-        .diagram .main-diagram .diagram-block .methodth-name {
+        .diagram .main-diagram .diagram-block .method-name {
           text-align: right; }
         .diagram .main-diagram .diagram-block .hours {
           text-align: right; }
     .diagram .main-diagram :first-child .diagram-block {
       margin-top: 0; }
-      .diagram .main-diagram :first-child .diagram-block .methodth-name {
+      .diagram .main-diagram :first-child .diagram-block .method-name {
         text-align: left; }
       .diagram .main-diagram :first-child .diagram-block .hours {
         text-align: left; }
@@ -700,10 +700,10 @@ body {
   .disruptive-innovations-container .disruptive-innovations {
     font-size: 24px;
     line-height: 32px; }
-    .disruptive-innovations-container .disruptive-innovations .first-block .di-title {
+    .disruptive-innovations-container .disruptive-innovations .first-block .disruptive-innovations-title {
       border-left: 8px solid #5cc78d;
       color: #0c242c; }
-      .disruptive-innovations-container .disruptive-innovations .first-block .di-title p {
+      .disruptive-innovations-container .disruptive-innovations .first-block .disruptive-innovations-title p {
         margin-left: 24px;
         font-size: 48px;
         font-weight: 700;
@@ -732,13 +732,13 @@ body {
       margin: 0 224px 130px 224px; }
       .disruptive-innovations .disruptive-innovations-main .first-block {
         width: 470px; }
-        .disruptive-innovations .disruptive-innovations-main .first-block .di-title {
+        .disruptive-innovations .disruptive-innovations-main .first-block .disruptive-innovations-title {
           padding-top: 148px;
           border-left: 8px solid #5cc78d;
           color: #0c242c; }
-          .disruptive-innovations .disruptive-innovations-main .first-block .di-title p {
+          .disruptive-innovations .disruptive-innovations-main .first-block .disruptive-innovations-title p {
             margin-left: 24px; }
-        .disruptive-innovations .disruptive-innovations-main .first-block .di-text {
+        .disruptive-innovations .disruptive-innovations-main .first-block .disruptive-innovations-text {
           margin-left: 32px;
           padding-top: 32px; }
       .disruptive-innovations .disruptive-innovations-main .second-block {
@@ -754,17 +754,17 @@ body {
     padding-bottom: 80px; }
     .disruptive-innovations div {
       width: 100%; }
-      .disruptive-innovations div .di-title {
+      .disruptive-innovations div .disruptive-innovations-title {
         padding-top: 48px;
         border-left: 8px solid #5cc78d;
         color: #0c242c; }
-        .disruptive-innovations div .di-title p {
+        .disruptive-innovations div .disruptive-innovations-title p {
           margin-left: 24px;
           font-size: 48px;
           line-height: 56px; }
-        .disruptive-innovations div .di-title br {
+        .disruptive-innovations div .disruptive-innovations-title br {
           display: none; }
-      .disruptive-innovations div .di-text {
+      .disruptive-innovations div .disruptive-innovations-text {
         width: 650px;
         margin-left: 32px;
         padding-top: 32px; }
@@ -783,17 +783,17 @@ body {
     margin: 0 auto; }
     .disruptive-innovations div {
       width: 100%; }
-      .disruptive-innovations div .di-title {
+      .disruptive-innovations div .disruptive-innovations-title {
         padding-top: 96px;
         border-left: 8px solid #5cc78d;
         color: #0c242c;
         font-size: 32px;
         line-height: 36px; }
-        .disruptive-innovations div .di-title p {
+        .disruptive-innovations div .disruptive-innovations-title p {
           margin-left: 24px; }
-        .disruptive-innovations div .di-title br {
+        .disruptive-innovations div .disruptive-innovations-title br {
           display: none; }
-      .disruptive-innovations div .di-text {
+      .disruptive-innovations div .disruptive-innovations-text {
         width: 296px;
         margin-left: 32px;
         padding-top: 32px;
