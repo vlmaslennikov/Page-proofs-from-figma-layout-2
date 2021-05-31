@@ -1,4 +1,5 @@
 @import '_variables';
+@import '_container';
 
 .diagram-container {
   background-color: rgba(247, 248, 250, 1);
@@ -51,19 +52,18 @@
 
 @media (min-width: $desktopMin) {
   .diagram {
-    width: 1440px;
     padding: 160px 0 100px 0;
     margin: 0 auto;
 
     .diagram-titles {
       h3 {
-        margin-left: 223px;
+        margin-left: 63px;
         padding-left: 32px;
         font-size: 24px;
         line-height: 28px;
       }
       div {
-        margin-left: 223px;
+        margin-left: 63px;
         border-left: 8px solid rgba(92, 199, 141, 1);
         h1 {
           max-width: 1060px;
@@ -75,7 +75,7 @@
       }
     }
     .main-diagram {
-      padding: 109px 160px 0 160px;
+      padding-top: 109px;
       .diagram-block {
         margin-top: -30px;
         .method-name {
@@ -112,7 +112,6 @@
 }
 @media (min-width: $tabletMin) and (max-width: $tabletMax) {
   .diagram {
-    width: 768px;
     height: 720px;
     margin: 0 auto;
     .diagram-titles {
@@ -153,9 +152,8 @@
     width: 100%;
   }
 }
-@media (min-width: $phoneMin) and (max-width: $phoneMax) {
+@media (max-width: $phoneMax) {
   .diagram {
-    width: 360px;
     height: 720px;
     margin: 0 auto;
     .diagram-titles {

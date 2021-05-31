@@ -1,4 +1,5 @@
 @import '_variables';
+@import '_container';
 
 .disruptive-innovations-container {
   background-color: rgba(247, 248, 250, 1);
@@ -40,14 +41,13 @@
 
 @media (min-width: $desktopMin) {
   .disruptive-innovations {
-    width: 1440px;
     height: 520px;
     margin: 0 auto;
 
     .disruptive-innovations-main {
       display: flex;
       justify-content: space-between;
-      margin: 0 224px 130px 224px;
+      margin: 0 64px 130px 64px;
       .first-block {
         width: 470px;
         .disruptive-innovations-title {
@@ -73,7 +73,6 @@
 }
 @media (min-width: $tabletMin) and (max-width: $tabletMax) {
   .disruptive-innovations {
-    width: 768px;
     height: 520px;
     margin: 0 auto;
     padding-bottom: 80px;
@@ -107,9 +106,8 @@
     }
   }
 }
-@media (min-width: $phoneMin) and (max-width: $phoneMax) {
+@media (max-width: $phoneMax) {
   .disruptive-innovations {
-    width: 360px;
     height: 640px;
     padding-bottom: 80px;
     margin: 0 auto;

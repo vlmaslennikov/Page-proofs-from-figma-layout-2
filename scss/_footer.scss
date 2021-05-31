@@ -1,4 +1,5 @@
 @import '_variables';
+@import '_container';
 
 .footer-container {
   background-color: rgba(241, 243, 246, 1);
@@ -31,11 +32,10 @@
 
 @media (min-width: $desktopMin) {
   .footer {
-    width: 1440px;
     height: 242px;
     margin: 0 auto;
     .contacts {
-      padding: 74px 160px 76px 160px;
+      padding: 74px 0 76px 0;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -69,7 +69,6 @@
 }
 @media (min-width: $tabletMin) and (max-width: $tabletMax) {
   .footer {
-    width: 768px;
     height: 400px;
     margin: 0 auto;
     display: flex;
@@ -114,9 +113,8 @@
   }
 }
 
-@media (min-width: $phoneMin) and (max-width: $phoneMax) {
+@media (max-width: $phoneMax) {
   .footer {
-    width: 360px;
     height: 400px;
     margin: 0 auto;
     display: flex;

@@ -1,12 +1,13 @@
 @import '_variables';
+@import '_container';
 
-.current-standart-container {
+.current-standard-container {
   .grey-line {
     position: absolute;
     border-right: 2px solid rgba(12, 36, 44, 1);
     opacity: 0.2;
   }
-  .current-standart {
+  .current-standard {
     .big-container {
       .titles {
         z-index: 1;
@@ -61,25 +62,22 @@
 }
 
 @media (min-width: $desktopMin) {
-  .current-standart-container {
+  .current-standard-container {
     background-image: url("../assets/images/bg-current-standart-large.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    min-width: 1440px;
     max-width: 100%;
     height: 1942px;
 
-    .current-standart {
-      width: 1440px;
-      height: 1942px;
+    .current-standard {
       margin: 0 auto;
       .big-container {
-        padding: 96px 224px 0 224px;
+        padding: 96px 64px 0 64px;
         .titles {
           width: 100%;
           padding-bottom: 158px;
           .small-title {
-            padding: 0 0 8px 32px;
+            padding: 0 0 8px 34px;
             font-size: 32px;
             line-height: 36px;
           }
@@ -101,7 +99,7 @@
 
           .card {
             .circle {
-              margin-left: 481px;
+              margin-left: 470px;
               margin-bottom: -32px;
             }
             padding-top: 114px;
@@ -118,7 +116,7 @@
             }
             &:nth-child(odd) {
               .circle {
-                margin-left: -134px;
+                margin-left: -145px;
               }
               align-self: flex-end;
             }
@@ -129,21 +127,19 @@
   }
   .grey-line {
     height: 1942px;
-    min-width: 720px;
+    min-width: 549px;
   }
 }
 
 @media (min-width: $tabletMin) and (max-width: $tabletMax) {
-  .current-standart-container {
+  .current-standard-container {
     background-image: url("../assets/images/bg-current-standart-medium.png");
     background-size: cover;
     background-repeat: no-repeat;
-    min-width: 768px;
     max-width: 100%;
     height: 2000px;
 
-    .current-standart {
-      width: 768px;
+    .current-standard {
       height: 2000px;
       margin: 0 auto;
       div {
@@ -195,16 +191,14 @@
   }
 }
 
-@media (min-width: $phoneMin) and (max-width: $phoneMax) {
-  .current-standart-container {
+@media (max-width: $phoneMax) {
+  .current-standard-container {
     background-image: url("../assets/images/bg-current-standart-small.png");
     background-size: cover;
     background-repeat: no-repeat;
-    min-width: 360px;
     max-width: 100%;
     height: 1440px;
-    .current-standart {
-      width: 360px;
+    .current-standard {
       height: 1440px;
       margin: 0 auto;
       div {

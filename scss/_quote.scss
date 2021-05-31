@@ -1,4 +1,5 @@
 @import '_variables';
+@import '_container';
 
 .quote-container {
   background-color: white;
@@ -31,14 +32,14 @@
 
 @media (min-width: $desktopMin) {
   .quote {
-    width: 1440px;
     height: 460px;
     margin: 0 auto;
     .quote-block {
-      padding: 164px 256px 108px 256px;
+      padding: 164px 96px 108px 96px;
       .author {
         height: 64px;
-        margin: 56px 0 0 466px;
+        margin-top: 56px ;
+        margin-left:50%;
         .name {
           margin-left: 16px;
         }
@@ -52,7 +53,6 @@
 
 @media (min-width: $tabletMin) and (max-width: $tabletMax) {
   .quote {
-    width: 768px;
     height: 400px;
     margin: 0 auto;
     background-color: rgba(247, 248, 250, 1);
@@ -73,9 +73,8 @@
   }
 }
 
-@media (min-width: $phoneMin) and (max-width: $phoneMax) {
+@media  (max-width: $phoneMax) {
   .quote {
-    width: 360px;
     height: 640px;
     margin: 0 auto;
     background-color: rgba(247, 248, 250, 1);

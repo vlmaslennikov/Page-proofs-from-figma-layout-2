@@ -1,4 +1,5 @@
 @import '_variables';
+@import '_container';
 
 .team-container {
   background-color: white;
@@ -74,11 +75,10 @@
 
 @media (min-width: $desktopMin) {
   .team {
-    width: 1440px;
     height: 720px;
     margin: 0 auto;
     .team-cards {
-      padding: 90px 160px 86.2px 256px;
+      padding: 90px 0 86.2px 96px;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -124,7 +124,6 @@
 
 @media (min-width: $tabletMin) and (max-width: $tabletMax) {
   .team {
-    width: 768px;
     height: 1200px;
     margin: 0 auto;
     padding-top: 96px;
@@ -170,9 +169,8 @@
   }
 }
 
-@media (min-width: $phoneMin) and (max-width: $phoneMax) {
+@media  (max-width: $phoneMax) {
   .team {
-    width: 360px;
     height: 1680px;
     margin: 0 auto;
     padding: 96px 0;
@@ -193,7 +191,6 @@
           height: 240px;
         }
         .card-text {
-          padding-left: 32px;
           .position {
             display: inline-block;
             vertical-align: top;

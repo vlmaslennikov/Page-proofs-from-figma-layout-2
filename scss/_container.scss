@@ -1,0 +1,21 @@
+@import '_variables';
+
+@media (min-width: $desktopMin) {
+    .container{
+        width: 1120px;
+    }
+}
+
+@media (min-width: $tabletMin) and (max-width: $tabletMax) {
+    .container{
+        width: 768px;
+    }
+
+}
+
+@media  (max-width: $phoneMax) {
+    .container{
+        width: 360px;
+    }
+
+}
