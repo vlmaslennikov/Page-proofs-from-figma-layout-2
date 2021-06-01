@@ -1,7 +1,7 @@
-@import '_variables';
-@import '_container';
+@import "_variables";
+@import "_container";
 
-.title-container{
+.title-container {
   background-repeat: no-repeat;
   max-width: 100%;
   .title {
@@ -22,10 +22,10 @@
       span {
         font-weight: 700;
       }
-      h1{
+      h1 {
         font-size: 48px;
       }
-      p{
+      p {
         font-size: 48px;
       }
       line-height: 56px;
@@ -37,12 +37,11 @@
         font-weight: 700;
         line-height: 16px;
         text-align: center;
-        background-color: rgba(92, 199, 141, 1);
+        background-color: $green-color;
         color: white;
         border-radius: 32px;
         border-color: transparent;
         text-transform: uppercase;
-
       }
       .btn-learn-more:hover {
         opacity: 0.7;
@@ -54,10 +53,9 @@
         text-align: center;
         color: white;
         background-color: transparent;
-        border: 1px solid white ;
+        border: 1px solid white;
         border-radius: 32px;
         text-transform: uppercase;
-
       }
       .btn-get-in-touch:hover {
         opacity: 0.7;
@@ -67,7 +65,7 @@
 }
 
 @media (min-width: $desktopMin) {
-  .title-container{
+  .title-container {
     background-image: url("../assets/images/bg-title-large.png");
     background-size: cover;
     height: 800px;
@@ -75,7 +73,7 @@
     .title {
       height: 800px;
       .title-header {
-        margin: 0 ;
+        margin: 0;
         padding-top: 32px;
         display: flex;
         flex-direction: row;
@@ -93,12 +91,12 @@
       }
 
       .main-title {
-        margin: 385px 96px 0 96px;
+        margin: 385px 96px 0;
         max-width: 940px;
         height: 168px;
       }
       .buttons {
-        margin: 32px 96px 87px 96px;
+        margin: 32px 96px 87px;
         display: flex;
         flex-direction: row;
         .btn-learn-more {
@@ -116,7 +114,7 @@
 }
 
 @media (min-width: $tabletMin) and (max-width: $tabletMax) {
-  .title-container{
+  .title-container {
     background-image: url("../assets/images/bg-title-medium.svg");
     background-size: 100%;
     height: 1024px;
@@ -141,13 +139,11 @@
         display: none;
       }
       .main-title {
-        margin: 584px 32px 0 32px;
+        margin: 584px 32px 0;
         height: 168px;
-       
-        
       }
       .buttons {
-        margin: 16px 32px 16px 32px;
+        margin: 16px 32px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -165,7 +161,7 @@
 }
 
 @media (max-width: $phoneMax) {
-  .title-container{
+  .title-container {
     background-image: url("../assets/images/bg-title-small.svg");
     background-size: 100%;
     height: 640px;
@@ -191,19 +187,18 @@
         display: none;
       }
       .main-title {
-        margin: 193px 32px 0 32px;
-        h1{
+        margin: 193px 32px 0;
+        h1 {
           font-size: 32px;
         }
-        p{
+        p {
           font-size: 32px;
         }
         font-style: normal;
         line-height: 36px;
-        
       }
       .buttons {
-        margin: 16px 32px 16px 32px;
+        margin: 16px 32px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;

@@ -1,16 +1,17 @@
-@import '_variables';
-@import '_container';
+@import "_variables";
+@import "_container";
 
 .disruptive-innovations-container {
-  background-color: rgba(247, 248, 250, 1);
+  background-color: rgb(247, 248, 250);
   .disruptive-innovations {
+    margin: 0 auto;
     font-size: 24px;
     line-height: 32px;
     .first-block {
-      .disruptive-innovations-title{
-        border-left: 8px solid rgba(92, 199, 141, 1);
-        color: rgba(12, 36, 44, 1);
-        h1 {
+      .disruptive-innovations-title {
+        border-left: 8px solid $green-color;
+        color: $black-color;
+        p {
           margin-left: 24px;
           font-size: 48px;
           font-weight: 700;
@@ -20,7 +21,7 @@
     }
     .second-block {
       li {
-        padding: 16px 0 8px 0;
+        padding: 16px 0 8px;
         margin-left: 5px;
         list-style-type: none;
         .marker {
@@ -29,7 +30,7 @@
           margin-right: 14px;
           height: 4px;
           width: 12px;
-          background: rgba(92, 199, 141, 1);
+          background: $green-color;
           border-radius: 6px;
         }
       }
@@ -39,9 +40,6 @@
 
 @media (min-width: $desktopMin) {
   .disruptive-innovations {
-    height: 520px;
-    margin: 0 auto;
-
     .disruptive-innovations-main {
       display: flex;
       justify-content: space-between;
@@ -50,9 +48,7 @@
         width: 470px;
         .disruptive-innovations-title {
           padding-top: 148px;
-          border-left: 8px solid rgba(92, 199, 141, 1);
-          color: rgba(12, 36, 44, 1);
-          h1 {
+          p {
             margin-left: 24px;
           }
         }
@@ -71,22 +67,16 @@
 }
 @media (min-width: $tabletMin) and (max-width: $tabletMax) {
   .disruptive-innovations {
-    height: 520px;
-    margin: 0 auto;
     padding-bottom: 80px;
-
     div {
       width: 100%;
       .disruptive-innovations-title {
         padding-top: 48px;
-        border-left: 8px solid rgba(92, 199, 141, 1);
-        color: rgba(12, 36, 44, 1);
-        h1 {
+        p {
           margin-left: 24px;
           font-size: 48px;
           line-height: 56px;
         }
-        
       }
       .disruptive-innovations-text {
         width: 650px;
@@ -106,22 +96,16 @@
 }
 @media (max-width: $phoneMax) {
   .disruptive-innovations {
-    height: 640px;
     padding-bottom: 80px;
-    margin: 0 auto;
-
     div {
       width: 100%;
       .disruptive-innovations-title {
         padding-top: 96px;
-        border-left: 8px solid rgba(92, 199, 141, 1);
-        color: rgba(12, 36, 44, 1);
         font-size: 32px;
         line-height: 36px;
-        h1 {
+        p {
           margin-left: 24px;
         }
-        
       }
       .disruptive-innovations-text {
         width: 296px;

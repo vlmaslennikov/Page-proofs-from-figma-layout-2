@@ -1,5 +1,5 @@
-@import '_variables';
-@import '_container';
+@import "_variables";
+@import "_container";
 .universal-platform-container {
   background-repeat: no-repeat;
   width: 100%;
@@ -7,7 +7,6 @@
     margin: 0 auto;
     .universal-platform-title {
       h2 {
-        display: inline-flex;
         text-align: center;
         font-weight: 700;
       }
@@ -30,7 +29,7 @@
     .universal-platform-title {
       padding-top: 142.25px;
       margin-bottom: 100.75px;
-      h2{
+      h2 {
         font-size: 32px;
         line-height: 36px;
       }
@@ -39,7 +38,7 @@
     }
     .universal-platform-circle {
       background-image: url("../assets/images/round-elem-large.svg");
-      background-size : contain;
+      background-size: contain;
       width: 1083px;
       height: 587px;
     }
@@ -56,7 +55,7 @@
     .universal-platform-title {
       padding-top: 96px;
       margin-bottom: 47px;
-      h2{
+      h2 {
         font-size: 32px;
         line-height: 36px;
       }
@@ -89,10 +88,10 @@
       padding-top: 96px;
       margin-bottom: 64px;
       color: white;
-      h2{
+      h2 {
         font-size: 24px;
         line-height: 28px;
-        display: block;
+        width: 345px;
         text-align: center;
       }
     }
@@ -107,5 +106,4 @@
       right: calc(100% - 673px);
     }
   }
-  
 }

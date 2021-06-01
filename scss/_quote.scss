@@ -1,5 +1,5 @@
-@import '_variables';
-@import '_container';
+@import "_variables";
+@import "_container";
 
 .quote-container {
   background-color: white;
@@ -9,24 +9,24 @@
       .text {
         font-size: 24px;
         line-height: 32px;
-        color: rgba(12, 36, 44, 1);
+        color: $black-color;
       }
       .author {
-        border-left: 8px solid rgba(92, 199, 141, 1);
-        color: rgba(12, 36, 44, 1);
+        border-left: 8px solid $green-color;
+        color: $black-color;
         .name {
           margin-left: 16px;
           font-size: 24px;
           font-weight: 700;
           line-height: 28px;
-          color: rgba(12, 36, 44, 1);
+          color: $black-color;
         }
         .ref {
           margin-left: 16px;
           font-size: 16px;
           font-weight: 700;
           line-height: 20px;
-          color: rgba(12, 36, 44, 1);
+          color: $black-color;
         }
       }
     }
@@ -37,11 +37,11 @@
   .quote {
     height: 460px;
     .quote-block {
-      padding: 164px 96px 108px 96px;
+      padding: 164px 96px 108px;
       .author {
         height: 64px;
-        margin-top: 56px ;
-        margin-left:50%;
+        margin-top: 56px;
+        margin-left: 48.5%;
       }
     }
   }
@@ -50,9 +50,9 @@
 @media (min-width: $tabletMin) and (max-width: $tabletMax) {
   .quote {
     height: 400px;
-    background-color: rgba(247, 248, 250, 1);
+    background-color: rgb(247, 248, 250);
     .quote-block {
-      padding: 87px 32px 86px 32px;
+      padding: 87px 32px 86px;
       .author {
         height: 67px;
         margin-top: 32px;
@@ -62,12 +62,12 @@
   }
 }
 
-@media  (max-width: $phoneMax) {
+@media (max-width: $phoneMax) {
   .quote {
     height: 640px;
-    background-color: rgba(247, 248, 250, 1);
+    background-color: rgb(247, 248, 250);
     .quote-block {
-      padding: 87px 32px 86px 32px;
+      padding: 87px 32px 86px;
       .author {
         height: 67px;
         margin-top: 32px;

@@ -91,11 +91,11 @@ body {
           color: white;
           text-decoration: none; }
       .title-container .title .main-title {
-        margin: 385px 96px 0 96px;
+        margin: 385px 96px 0;
         max-width: 940px;
         height: 168px; }
       .title-container .title .buttons {
-        margin: 32px 96px 87px 96px;
+        margin: 32px 96px 87px;
         display: flex;
         flex-direction: row; }
         .title-container .title .buttons .btn-learn-more {
@@ -128,10 +128,10 @@ body {
       .title-container .title .decoration-text {
         display: none; }
       .title-container .title .main-title {
-        margin: 584px 32px 0 32px;
+        margin: 584px 32px 0;
         height: 168px; }
       .title-container .title .buttons {
-        margin: 16px 32px 16px 32px;
+        margin: 16px 32px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start; }
@@ -166,7 +166,7 @@ body {
       .title-container .title .decoration-text {
         display: none; }
       .title-container .title .main-title {
-        margin: 193px 32px 0 32px;
+        margin: 193px 32px 0;
         font-style: normal;
         line-height: 36px; }
         .title-container .title .main-title h1 {
@@ -174,7 +174,7 @@ body {
         .title-container .title .main-title p {
           font-size: 32px; }
       .title-container .title .buttons {
-        margin: 16px 32px 16px 32px;
+        margin: 16px 32px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start; }
@@ -226,18 +226,18 @@ body {
   .quote {
     height: 460px; }
     .quote .quote-block {
-      padding: 164px 96px 108px 96px; }
+      padding: 164px 96px 108px; }
       .quote .quote-block .author {
         height: 64px;
         margin-top: 56px;
-        margin-left: 50%; } }
+        margin-left: 48.5%; } }
 
 @media (min-width: 768px) and (max-width: 1199.98px) {
   .quote {
     height: 400px;
     background-color: #f7f8fa; }
     .quote .quote-block {
-      padding: 87px 32px 86px 32px; }
+      padding: 87px 32px 86px; }
       .quote .quote-block .author {
         height: 67px;
         margin-top: 32px;
@@ -248,7 +248,7 @@ body {
     height: 640px;
     background-color: #f7f8fa; }
     .quote .quote-block {
-      padding: 87px 32px 86px 32px; }
+      padding: 87px 32px 86px; }
       .quote .quote-block .author {
         height: 67px;
         margin-top: 32px;
@@ -302,16 +302,16 @@ body {
   border-radius: 50%;
   position: relative;
   z-index: 2; }
-
-.dot {
-  background: #f8634e;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  position: absolute;
-  left: 12px;
-  top: 12px;
-  z-index: 2; }
+  .circle .dot {
+    background: #f8634e;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; }
 
 @media (min-width: 1200px) {
   .current-standard-container {
@@ -405,45 +405,42 @@ body {
 @media (max-width: 767.98px) {
   .current-standard-container {
     background-image: url("../assets/images/bg-current-standart-small.png");
-    background-size: cover;
-    height: 1440px; }
-    .current-standard-container .current-standard {
-      height: 1440px; }
-      .current-standard-container .current-standard div .titles {
-        padding-top: 96px;
-        padding-right: 16px; }
-        .current-standard-container .current-standard div .titles .small-title {
-          padding: 0 0 8px 32px;
+    background-size: cover; }
+    .current-standard-container .current-standard div .titles {
+      padding-top: 96px;
+      padding-right: 16px; }
+      .current-standard-container .current-standard div .titles .small-title {
+        padding: 0 0 8px 32px;
+        font-size: 24px;
+        line-height: 28px; }
+      .current-standard-container .current-standard div .titles div {
+        padding-top: 8px;
+        border-left: 8px solid #ced3da; }
+        .current-standard-container .current-standard div .titles div .big-title {
+          width: 300px;
+          padding-left: 24px;
+          font-size: 32px;
+          line-height: 36px; }
+    .current-standard-container .current-standard div .main-content {
+      padding-right: 16px;
+      margin-top: 124px;
+      padding-left: 87px; }
+      .current-standard-container .current-standard div .main-content .card {
+        width: 248px;
+        height: 264px; }
+        .current-standard-container .current-standard div .main-content .card .circle {
+          margin-left: -75px;
+          margin-bottom: -27px; }
+        .current-standard-container .current-standard div .main-content .card :nth-child(2) {
           font-size: 24px;
-          line-height: 28px; }
-        .current-standard-container .current-standard div .titles div {
-          padding-top: 8px;
-          border-left: 8px solid #ced3da; }
-          .current-standard-container .current-standard div .titles div .big-title {
-            width: 300px;
-            padding-left: 24px;
-            font-size: 32px;
-            line-height: 36px; }
-      .current-standard-container .current-standard div .main-content {
-        padding-right: 16px;
-        margin-top: 124px;
-        padding-left: 87px; }
-        .current-standard-container .current-standard div .main-content .card {
-          width: 248px;
-          height: 264px; }
-          .current-standard-container .current-standard div .main-content .card .circle {
-            margin-left: -75px;
-            margin-bottom: -27px; }
-          .current-standard-container .current-standard div .main-content .card :nth-child(2) {
-            font-size: 24px;
-            font-weight: 700;
-            line-height: 28px;
-            color: #0c242c; }
-          .current-standard-container .current-standard div .main-content .card :nth-child(3) {
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 24px;
-            color: #0c242c; }
+          font-weight: 700;
+          line-height: 28px;
+          color: #0c242c; }
+        .current-standard-container .current-standard div .main-content .card :nth-child(3) {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          color: #0c242c; }
   .grey-line {
     height: 1440px;
     min-width: 28px; } }
@@ -468,7 +465,7 @@ body {
   .diagram-container .diagram .diagram-titles div {
     margin-top: 16px;
     border-left: 8px solid #5cc78d; }
-    .diagram-container .diagram .diagram-titles div h1 {
+    .diagram-container .diagram .diagram-titles div p {
       font-weight: 700;
       color: #0c242c; }
   .diagram-container .diagram .main-diagram .diagram-block .method-name {
@@ -505,7 +502,7 @@ body {
     .diagram .diagram-titles div {
       margin-left: 63px;
       border-left: 8px solid #5cc78d; }
-      .diagram .diagram-titles div h1 {
+      .diagram .diagram-titles div p {
         max-width: 1060px;
         margin: 0;
         padding-left: 24px;
@@ -520,11 +517,8 @@ body {
         .diagram .main-diagram .diagram-block .hours {
           text-align: right; }
     .diagram .main-diagram :first-child .diagram-block {
-      margin-top: 0; }
-      .diagram .main-diagram :first-child .diagram-block .method-name {
-        text-align: left; }
-      .diagram .main-diagram :first-child .diagram-block .hours {
-        text-align: left; }
+      margin-top: 0;
+      text-align: left; }
   .width-upper {
     width: 5.71%; }
   .width-middle {
@@ -544,7 +538,7 @@ body {
         line-height: 28px; }
       .diagram .diagram-titles div {
         border-left: 8px solid #5cc78d; }
-        .diagram .diagram-titles div h1 {
+        .diagram .diagram-titles div p {
           width: 650px;
           margin-top: 36px;
           padding-left: 24px;
@@ -554,7 +548,7 @@ body {
   .main-diagram {
     background-image: url("../assets/images/diagram-medium.svg");
     background-size: 100%;
-    margin: 76px 32px 72px 32px;
+    margin: 76px 32px 72px;
     height: 244px;
     width: 704px; }
   .rectangle-upper {
@@ -576,7 +570,7 @@ body {
         line-height: 24px; }
       .diagram .diagram-titles div {
         border-left: 8px solid #5cc78d; }
-        .diagram .diagram-titles div h1 {
+        .diagram .diagram-titles div p {
           width: 296px;
           margin-top: 36px;
           padding-left: 24px;
@@ -587,7 +581,7 @@ body {
   .main-diagram {
     background-image: url("../assets/images/diagram-small.svg");
     background-size: 100%;
-    margin: 64px 32px 72px 32px;
+    margin: 64px 32px 72px;
     height: 244px;
     width: 296px; }
   .rectangle-upper {
@@ -615,7 +609,6 @@ body {
   .universal-platform-container .universal-platform {
     margin: 0 auto; }
     .universal-platform-container .universal-platform .universal-platform-title h2 {
-      display: inline-flex;
       text-align: center;
       font-weight: 700; }
     .universal-platform-container .universal-platform .universal-platform-circle {
@@ -683,7 +676,7 @@ body {
       .universal-platform .universal-platform-title h2 {
         font-size: 24px;
         line-height: 28px;
-        display: block;
+        width: 345px;
         text-align: center; }
     .universal-platform .universal-platform-circle {
       background-image: url("../assets/images/round-elem-small.svg");
@@ -710,18 +703,19 @@ body {
 .disruptive-innovations-container {
   background-color: #f7f8fa; }
   .disruptive-innovations-container .disruptive-innovations {
+    margin: 0 auto;
     font-size: 24px;
     line-height: 32px; }
     .disruptive-innovations-container .disruptive-innovations .first-block .disruptive-innovations-title {
       border-left: 8px solid #5cc78d;
       color: #0c242c; }
-      .disruptive-innovations-container .disruptive-innovations .first-block .disruptive-innovations-title h1 {
+      .disruptive-innovations-container .disruptive-innovations .first-block .disruptive-innovations-title p {
         margin-left: 24px;
         font-size: 48px;
         font-weight: 700;
         line-height: 56px; }
     .disruptive-innovations-container .disruptive-innovations .second-block li {
-      padding: 16px 0 8px 0;
+      padding: 16px 0 8px;
       margin-left: 5px;
       list-style-type: none; }
       .disruptive-innovations-container .disruptive-innovations .second-block li .marker {
@@ -734,41 +728,32 @@ body {
         border-radius: 6px; }
 
 @media (min-width: 1200px) {
-  .disruptive-innovations {
-    height: 520px;
-    margin: 0 auto; }
-    .disruptive-innovations .disruptive-innovations-main {
-      display: flex;
-      justify-content: space-between;
-      margin: 0 64px 130px 64px; }
-      .disruptive-innovations .disruptive-innovations-main .first-block {
-        width: 470px; }
-        .disruptive-innovations .disruptive-innovations-main .first-block .disruptive-innovations-title {
-          padding-top: 148px;
-          border-left: 8px solid #5cc78d;
-          color: #0c242c; }
-          .disruptive-innovations .disruptive-innovations-main .first-block .disruptive-innovations-title h1 {
-            margin-left: 24px; }
-        .disruptive-innovations .disruptive-innovations-main .first-block .disruptive-innovations-text {
-          margin-left: 32px;
-          padding-top: 32px; }
-      .disruptive-innovations .disruptive-innovations-main .second-block {
-        width: 450px;
-        padding-top: 156px;
-        margin-left: 126px; } }
+  .disruptive-innovations .disruptive-innovations-main {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 64px 130px 64px; }
+    .disruptive-innovations .disruptive-innovations-main .first-block {
+      width: 470px; }
+      .disruptive-innovations .disruptive-innovations-main .first-block .disruptive-innovations-title {
+        padding-top: 148px; }
+        .disruptive-innovations .disruptive-innovations-main .first-block .disruptive-innovations-title p {
+          margin-left: 24px; }
+      .disruptive-innovations .disruptive-innovations-main .first-block .disruptive-innovations-text {
+        margin-left: 32px;
+        padding-top: 32px; }
+    .disruptive-innovations .disruptive-innovations-main .second-block {
+      width: 450px;
+      padding-top: 156px;
+      margin-left: 126px; } }
 
 @media (min-width: 768px) and (max-width: 1199.98px) {
   .disruptive-innovations {
-    height: 520px;
-    margin: 0 auto;
     padding-bottom: 80px; }
     .disruptive-innovations div {
       width: 100%; }
       .disruptive-innovations div .disruptive-innovations-title {
-        padding-top: 48px;
-        border-left: 8px solid #5cc78d;
-        color: #0c242c; }
-        .disruptive-innovations div .disruptive-innovations-title h1 {
+        padding-top: 48px; }
+        .disruptive-innovations div .disruptive-innovations-title p {
           margin-left: 24px;
           font-size: 48px;
           line-height: 56px; }
@@ -785,18 +770,14 @@ body {
 
 @media (max-width: 767.98px) {
   .disruptive-innovations {
-    height: 640px;
-    padding-bottom: 80px;
-    margin: 0 auto; }
+    padding-bottom: 80px; }
     .disruptive-innovations div {
       width: 100%; }
       .disruptive-innovations div .disruptive-innovations-title {
         padding-top: 96px;
-        border-left: 8px solid #5cc78d;
-        color: #0c242c;
         font-size: 32px;
         line-height: 36px; }
-        .disruptive-innovations div .disruptive-innovations-title h1 {
+        .disruptive-innovations div .disruptive-innovations-title p {
           margin-left: 24px; }
       .disruptive-innovations div .disruptive-innovations-text {
         width: 296px;
@@ -843,20 +824,30 @@ body {
   .team-container .team .team-cards .team-card .author-name {
     font-weight: 700;
     position: relative;
-    z-index: 2; }
+    z-index: 2;
+    font-size: 24px;
+    line-height: 28px; }
   .team-container .team .team-cards .team-card .author-location {
-    font-weight: 400; }
+    font-weight: 400;
+    padding: 8px 0;
+    font-size: 16px;
+    line-height: 24px; }
   .team-container .team .team-cards .team-card .author-about {
     font-weight: 400;
-    opacity: 0.6; }
+    opacity: 0.6;
+    height: 96px;
+    padding: 8px 0;
+    font-size: 16px;
+    line-height: 24px; }
   .team-container .team .team-cards .team-card .author-link {
-    padding-top: 8px; }
+    padding-top: 8px;
+    display: flex; }
     .team-container .team .team-cards .team-card .author-link img {
       width: 24px;
       height: 24px;
       margin-right: 16px; }
     .team-container .team .team-cards .team-card .author-link a {
-      margin-top: 6px;
+      margin-top: 2px;
       text-decoration: none; }
       .team-container .team .team-cards .team-card .author-link a p {
         display: inline-flex;
@@ -872,8 +863,9 @@ body {
       .team-container .team .team-cards .team-card .author-link a .underline {
         margin-top: -1px;
         width: 100%;
-        height: 0.75px;
-        background-color: #4381bb; }
+        height: 1px;
+        background-color: #4381bb;
+        border: none; }
 
 @media (min-width: 1200px) {
   .team {
@@ -896,22 +888,9 @@ body {
         position: relative;
         z-index: 1; }
       .team .team-cards .team-card .author-name {
-        font-size: 24px;
-        line-height: 28px;
         margin-top: -38px; }
-      .team .team-cards .team-card .author-location {
-        padding: 8px 0 8px 0;
-        font-size: 16px;
-        line-height: 24px; }
       .team .team-cards .team-card .author-about {
-        width: 256px;
-        height: 96px;
-        padding: 8px 0 8px 0;
-        font-size: 16px;
-        line-height: 24px; }
-      .team .team-cards .team-card .author-link {
-        display: inline-flex;
-        padding-top: 8px; } }
+        width: 256px; } }
 
 @media (min-width: 768px) and (max-width: 1199.98px) {
   .team {
@@ -932,22 +911,8 @@ body {
           height: 240px; }
         .team .team-cards .team-card .card-text {
           padding-left: 36px; }
-          .team .team-cards .team-card .card-text .author-name {
-            font-size: 24px;
-            line-height: 28px; }
-          .team .team-cards .team-card .card-text .author-location {
-            padding: 8px 0 8px 0;
-            font-size: 16px;
-            line-height: 24px; }
           .team .team-cards .team-card .card-text .author-about {
-            width: 244px;
-            height: 96px;
-            padding: 8px 0 8px 0;
-            font-size: 16px;
-            line-height: 24px; }
-          .team .team-cards .team-card .card-text .author-link {
-            display: inline-flex;
-            padding-top: 8px; } }
+            width: 244px; } }
 
 @media (max-width: 767.98px) {
   .team {
@@ -971,29 +936,15 @@ body {
           height: 240px; }
         .team .team-cards .team-card .card-text .position {
           display: inline-block;
-          vertical-align: top;
           background-color: white;
           padding: 8px 8px 36px 0;
           margin-top: -60px;
           position: relative;
           z-index: 1; }
         .team .team-cards .team-card .card-text .author-name {
-          font-size: 24px;
-          line-height: 28px;
           margin-top: -30px; }
-        .team .team-cards .team-card .card-text .author-location {
-          padding: 8px 0 8px 0;
-          font-size: 16px;
-          line-height: 24px; }
         .team .team-cards .team-card .card-text .author-about {
-          width: 244px;
-          height: 96px;
-          padding: 8px 0 8px 0;
-          font-size: 16px;
-          line-height: 24px; }
-        .team .team-cards .team-card .card-text .author-link {
-          display: inline-flex;
-          padding-top: 8px; } }
+          width: 244px; } }
 
 @media (min-width: 1200px) {
   .container {
