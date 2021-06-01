@@ -5,6 +5,7 @@
   background-color: rgba(241, 243, 246, 1);
   max-width: 100%;
   .footer {
+    margin: 0 auto;
     .contacts {
       img {
         width: 123px;
@@ -15,17 +16,23 @@
         .phone {
           color: rgba(137, 146, 159, 1);
           text-decoration: none;
+          font-size: 32px;
+          line-height: 32px;
         }
         .email {
           color: rgba(137, 146, 159, 1);
           text-decoration: none;
+          font-size: 32px;
+          line-height: 32px;
         }
       }
     }
     .copyright {
-      font-weight: 400;
       text-align: center;
       color: rgba(137, 146, 159, 1);
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 16px;
     }
   }
 }
@@ -33,7 +40,6 @@
 @media (min-width: $desktopMin) {
   .footer {
     height: 242px;
-    margin: 0 auto;
     .contacts {
       padding: 74px 0 76px 0;
       display: flex;
@@ -48,21 +54,14 @@
         .phone {
           padding-right: 35px;
           margin-right: 32px;
-          font-size: 32px;
-          line-height: 32px;
         }
         .email {
-          font-size: 32px;
-          line-height: 32px;
           margin-left: 32px;
           padding-right: 55px;
         }
       }
     }
     .copyright {
-      font-size: 12px;
-      font-weight: 400;
-      line-height: 16px;
       padding-bottom: 32px;
     }
   }
@@ -70,7 +69,6 @@
 @media (min-width: $tabletMin) and (max-width: $tabletMax) {
   .footer {
     height: 400px;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -93,22 +91,13 @@
         align-items: center;
         justify-content: space-around;
         flex-direction: column;
-        .phone {
-          font-size: 32px;
-          line-height: 32px;
-        }
         .email {
           padding-top: 64px;
-          font-size: 32px;
-          line-height: 32px;
         }
       }
     }
     .copyright {
       padding-bottom: 20px;
-      font-size: 12px;
-      font-weight: 400;
-      line-height: 16px;
     }
   }
 }
@@ -116,7 +105,6 @@
 @media (max-width: $phoneMax) {
   .footer {
     height: 400px;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -139,22 +127,13 @@
         align-items: center;
         justify-content: space-around;
         flex-direction: column;
-        .phone {
-          font-size: 32px;
-          line-height: 32px;
-        }
         .email {
           padding-top: 64px;
-          font-size: 32px;
-          line-height: 32px;
         }
       }
     }
     .copyright {
       padding-bottom: 20px;
-      font-size: 12px;
-      font-weight: 400;
-      line-height: 16px;
     }
   }
 }

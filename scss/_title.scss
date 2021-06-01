@@ -2,7 +2,10 @@
 @import '_container';
 
 .title-container{
+  background-repeat: no-repeat;
+  max-width: 100%;
   .title {
+    margin: 0 auto;
     .title-header {
       display: flex;
       flex-direction: row;
@@ -12,7 +15,6 @@
         width: 135px;
       }
     }
-
     .main-title {
       color: white;
       font-style: normal;
@@ -20,6 +22,13 @@
       span {
         font-weight: 700;
       }
+      h1{
+        font-size: 48px;
+      }
+      p{
+        font-size: 48px;
+      }
+      line-height: 56px;
     }
     .buttons {
       display: flex;
@@ -61,14 +70,10 @@
   .title-container{
     background-image: url("../assets/images/bg-title-large.png");
     background-size: cover;
-    background-repeat: no-repeat;
-    max-width: 100%;
     height: 800px;
 
     .title {
-      margin: 0 auto;
       height: 800px;
-
       .title-header {
         margin: 0 ;
         padding-top: 32px;
@@ -91,13 +96,6 @@
         margin: 385px 96px 0 96px;
         max-width: 940px;
         height: 168px;
-        h1{
-          font-size: 48px;
-        }
-        p{
-          font-size: 48px;
-        }
-        line-height: 56px;
       }
       .buttons {
         margin: 32px 96px 87px 96px;
@@ -121,13 +119,9 @@
   .title-container{
     background-image: url("../assets/images/bg-title-medium.svg");
     background-size: 100%;
-    background-repeat: no-repeat;
-
-    max-width: 100%;
     height: 1024px;
     .title {
       height: 1024px;
-      margin: 0 auto;
       .title-header {
         margin: 0 160px;
         padding-top: 32px;
@@ -149,13 +143,7 @@
       .main-title {
         margin: 584px 32px 0 32px;
         height: 168px;
-        h1{
-          font-size: 48px;
-        }
-        p{
-          font-size: 48px;
-        }
-        line-height: 56px;
+       
         
       }
       .buttons {
@@ -180,12 +168,9 @@
   .title-container{
     background-image: url("../assets/images/bg-title-small.svg");
     background-size: 100%;
-    background-repeat: no-repeat;
-    max-width: 100%;
     height: 640px;
     .title {
       height: 640px;
-      margin: 0 auto;
       position: relative;
       .title-header {
         margin: 0 160px;
@@ -214,7 +199,6 @@
           font-size: 32px;
         }
         font-style: normal;
-        font-weight: 300;
         line-height: 36px;
         
       }

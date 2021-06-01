@@ -60,10 +60,12 @@
               white-space: normal;
 
             }
-            hr{
+            .underline{
+              margin-top: -1px;
               width: 100%;
-              border: 0.75px solid rgba(67, 129, 187, 1);
-              margin-top: -3px;
+              height: 0.75px;
+              background-color:  rgba(67, 129, 187, 1);
+
             }
 
           }
@@ -181,6 +183,7 @@
 
       .team-card {
         padding-top: 66px;
+        padding-left: 32px;
         display: flex;
         flex-direction: column;
         justify-content: center;

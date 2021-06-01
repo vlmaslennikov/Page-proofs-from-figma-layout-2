@@ -1,13 +1,16 @@
-@import '_variables';
-@import '_container';
+@import "_variables";
+@import "_container";
 
 .current-standard-container {
+    background-repeat: no-repeat;
+    max-width: 100%;
   .grey-line {
     position: absolute;
     border-right: 2px solid rgba(12, 36, 44, 1);
     opacity: 0.2;
   }
   .current-standard {
+    margin: 0 auto;
     .big-container {
       .titles {
         z-index: 1;
@@ -65,12 +68,9 @@
   .current-standard-container {
     background-image: url("../assets/images/bg-current-standart-large.png");
     background-size: 100%;
-    background-repeat: no-repeat;
-    max-width: 100%;
     height: 1942px;
 
     .current-standard {
-      margin: 0 auto;
       .big-container {
         padding: 96px 64px 0 64px;
         .titles {
@@ -135,13 +135,9 @@
   .current-standard-container {
     background-image: url("../assets/images/bg-current-standart-medium.png");
     background-size: cover;
-    background-repeat: no-repeat;
-    max-width: 100%;
     height: 2000px;
-
     .current-standard {
       height: 2000px;
-      margin: 0 auto;
       div {
         .titles {
           padding-top: 96px;
@@ -195,12 +191,9 @@
   .current-standard-container {
     background-image: url("../assets/images/bg-current-standart-small.png");
     background-size: cover;
-    background-repeat: no-repeat;
-    max-width: 100%;
     height: 1440px;
     .current-standard {
       height: 1440px;
-      margin: 0 auto;
       div {
         .titles {
           padding-top: 96px;
